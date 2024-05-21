@@ -42,7 +42,7 @@ class Fahrenheit:
         fahrenheit = self.fahrenheit + 459
         return fahrenheit
 
-    def fsraeumur(self):
+    def fsreaumur(self):
         fahrenheit = (self.fahrenheit - 32) / 2.25
         return fahrenheit
 
@@ -64,7 +64,7 @@ class Kelvin:
         kelvin = self.kelvin * 1.8
         return kelvin
 
-    def k2raeumur(self):
+    def k2reaumur(self):
         kelvin = (self.kelvin - 273.15) * 0.8
         return kelvin
 
