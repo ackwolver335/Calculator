@@ -32,17 +32,17 @@ Note : Further code and data element is given in [BMI](https://github.com/ackwol
 
 It contains methods regarding the conversions in units of storage devices like bit,bytes,KB,.. and so on. Due to which one of them is shown in order to have an idea of this particular module.
 
-| **Methods** | **Uses** |
-| ----------- | -------- |
-| **bt2byte()** | Conversion of Bit to Byte |
-| **bt2kb()** | Conversion of Bit to KB |
-| **bt2mb()** | Conversion of Bit to MB |
-| **bt2gb()** | Conversion of Bit to GB |
-| **bt2tb()** | Conversion of Bit to TB |
-| **bt2pb()** | Conversion of Bit to PB |
-| **bt2eb()** | Conversion of Bit to EB |
-| **bt2zb()** | Conversion of Bit to ZB |
-| **bt2yb()** | Conversion of Bit to YB |
+| **Methods** | **Uses** | **Methods** | **Uses** |
+| ----------- | -------- | ----------- | -------- |
+| **bt2byte()** | Conversion of Bit to Byte | **byt2bt()** | Conversion of Byte to Bit |
+| **bt2kb()** | Conversion of Bit to KB | **byt2kb()** | Conversion of Byte to KB |
+| **bt2mb()** | Conversion of Bit to MB | **byt2mb()** | Conversion of Byte to MB |
+| **bt2gb()** | Conversion of Bit to GB | **byt2gb()** | Conversion of Byte to GB |
+| **bt2tb()** | Conversion of Bit to TB | **byt2tb()** | Conversion of Byte to TB |
+| **bt2pb()** | Conversion of Bit to PB | **byt2pb()** | Conversion of Byte to PB |
+| **bt2eb()** | Conversion of Bit to EB | **byt2eb()** | Conversion of Byte to EB |
+| **bt2zb()** | Conversion of Bit to ZB | **byt2zb()** | Conversion of Byte to ZB |
+| **bt2yb()** | Conversion of Bit to YB | **byt2yb()** | Conversion of Byte to YB |
 
 Note : In this similar way other data units are given in [Data](https://github.com/ackwolver335/Calculator/blob/main/Data.py) file.
 
@@ -56,17 +56,17 @@ Note : File is available with name [Discount](https://github.com/ackwolver335/Ca
 
 It contains different units that can be considered both in minor and major categories. Cause of availability of more than one unit's category, we have the explanation on one to be considered with others.
 
-| **Methods** | **Uses** |
-| ----------- | -------- |
-| **km2meter()** | Covnersion of km to mtr |
-| **km2dm()** | Conversion of km to dm |
-| **km2cm()** | Conversion of km to cm |
-| **km2mm()** | Conversion of km to um |
-| **km2nm()** | Conversion of km to nm |
-| **km2pm()** | Conversion of km to pm |
-| **km2miles()** | Conversion of km to miles |
-| **km2foot()** | Conversion of km to foot |
-| **km2yard()** | Conversion of km to yard |
-| **km2inches()** | Conversion of km to inches |
+| **Methods** | **Uses** | **Methods** | **Uses** |
+| ----------- | -------- | ----------- | -------- |
+| **km2meter()** | Covnersion of km to mtr | **m2km()** | Convesion of mtr to km |
+| **km2dm()** | Conversion of km to dm | **m2cm()** | Conversion of mtr to cm |
+| **km2cm()** | Conversion of km to cm | **m2dm()** | Conversion of mtr to dm |
+| **km2mm()** | Conversion of km to um | **m2mm()** | Conversion of mtr to mm |
+| **km2nm()** | Conversion of km to nm | **m2um()** | Conversion of mtr to um |
+| **km2pm()** | Conversion of km to pm | **m2nm()** | Conversion of mtr to nm |
+| **km2miles()** | Conversion of km to miles | **m2pm()** | Conversion of mtr to pm |
+| **km2foot()** | Conversion of km to foot | **m2miles()** | Conversion of mtr to miles |
+| **km2yard()** | Conversion of km to yard | **m2yard()** | Conversion of mtr to yard |
+| **km2inches()** | Conversion of km to inches | **m2foot()** | Conversion of mtr to foot |
 
 Note : In the similar way other distance units at micro and macro level are available in [Length](https://github.com/ackwolver335/Calculator/blob/main/Length.py) file.
