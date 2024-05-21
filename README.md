@@ -28,7 +28,7 @@ A well-known programming language's Repo **"Python"** containing the known knowl
 
 Note : Further code and data element is given in [BMI](https://github.com/ackwolver335/Calculator/blob/main/BMI.py) file.
 
-### Data Module's Methods
+### Data Unit's Module
 
 It contains methods regarding the conversions in units of storage devices like bit,bytes,KB,.. and so on. Due to which one of them is shown in order to have an idea of this particular module.
 
@@ -70,3 +70,16 @@ It contains different units that can be considered both in minor and major categ
 | **km2inches()** | Conversion of km to inches | **m2foot()** | Conversion of mtr to foot |
 
 Note : In the similar way other distance units at micro and macro level are available in [Length](https://github.com/ackwolver335/Calculator/blob/main/Length.py) file.
+
+### Temperature Module
+
+It contains the different categories of temperature units available in our environment even in degree or in other default units of temperature.
+
+| **Methods** | **Uses** | **Methods** | **Uses** |
+| ----------- | -------- | ----------- | -------- |
+| **c2F()** | Conversion of celsius to Fahrenheit | **f2c()** | Conversion of Fahrenheit to celsius |
+| **c2k()** | Conversion of celsius to kelvin | **f2k()** | Conversion of Fahrenheit to kelvin |
+| **c2rankine()** | Conversion of celsius to rankine | **f2rankine()** | Conversion of Fahrenheit to rankine |
+| **c2reaumur()** | Conversion of celsius to reaumur | **f2reaumur()** | Conversion of Fahrenheit to reaumur |
+
+Note : Similar to this one further code content is available in [Temperature](https://github.com/ackwolver335/Calculator/blob/main/Temperature.py) file.
