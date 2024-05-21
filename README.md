@@ -57,6 +57,7 @@ Note : File is available with name [Discount](https://github.com/ackwolver335/Ca
 It contains different units that can be considered both in minor and major categories. Cause of availability of more than one unit's category, we have the explanation on one to be considered with others.
 
 | **Methods** | **Uses** |
+| ----------- | -------- |
 | **km2meter()** | Covnersion of km to mtr |
 | **km2dm()** | Conversion of km to dm |
 | **km2cm()** | Conversion of km to cm |
