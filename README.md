@@ -101,3 +101,24 @@ It contains the different categories of Time Units available in our countable in
 | **yr2picosec()** | Conversion of year to picoseconds | **wk2picosec()** | Conversion of week to picoseconds |
 
 Note : In the similar way further code content in available in [Time](https://github.com/ackwolver335/Calculator/blob/main/Time.py) file.
+
+### Volume Module
+
+It contains different units regarding the volumes in the real world, in this one we have different available units.
+
+| **Methods** | **Uses** | **Methods** | **Uses** |
+| ----------- | -------- | ----------- | -------- |
+| **mcub2dmcub()** | Conversion of mtr3 to dm3 | **ltr2m3()** | Conversion of ltr to mtr3 |
+| **mcub2cmcub()** | Conversion of mtr3 to cm3 | **ltr2dm3()** | Conversion of ltr to dm3 |
+| **mcub2mmcub()** | Conversion of mtr3 to mm3 | **ltr2cm3()** | Conversion of ltr to cm3 |
+| **mcub2hctl()** | Conversion of mtr3 to hectal ltr | **ltr2mm3()** | Conversion of ltr to mm3 |
+| **mcub2ltr()** | Conversion of mtr3 to ltr | **ltr2hl()** | Conversion of ltr to hl |
+| **mcub2dcltr()** | Conversion of mtr3 to dcltr | **ltr2dl()** | Conversion of ltr to dl |
+| **mcub2cltr()** | Conversion of mtr3 to cltr | **ltr2cl()** | Conversion of ltr to cl |
+| **mcub2mltr()** | Conversion of mtr3 to mltr3 | **ltr2ml()** | Conversion of ltr to ml |
+| **mcub2ft3()** | Conversion of mtr3 to ft3 | **ltr2ft3()** | Conversion of ltr to ft3 |
+| **mcub2inch3()** | Conversion of mtr3 to inch3 | **ltr2inch3()** | Conversion of ltr to inch3 |
+| **mcub2yd3()** | Conversion of mtr3 to yd3 | **ltr2yd3()** | Conversion of ltr to yd3 |
+| **mcub2af3()** | Conversion of mtr3 to af3 | **ltr2af3()** | Conversion of ltr to af3 |
+
+Note : Further code and resources will be available in [Volume](https://github.com/ackwolver335/Calculator/blob/main/volume.py) File.
