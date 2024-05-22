@@ -32,10 +32,6 @@ class metre3:
         metre3 = self.meter_cub * (10 ** 4)
         return metre3
 
-    def mcub2cltr(self):
-        metre3 = self.meter_cub * (10 ** 5)
-        return metre3
-
     def mcub2mltr(self):
         metre3 = self.meter_cub * (10 ** 6)
         return metre3
