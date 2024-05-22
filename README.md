@@ -83,3 +83,21 @@ It contains the different categories of temperature units available in our envir
 | **c2reaumur()** | Conversion of celsius to reaumur | **f2reaumur()** | Conversion of Fahrenheit to reaumur |
 
 Note : Similar to this one further code content is available in [Temperature](https://github.com/ackwolver335/Calculator/blob/main/Temperature.py) file.
+
+### Time Module
+
+It contains the different categories of Time Units available in our countable in micro and nano as per the speed of time.
+
+| **Methods** | **Uses** | **Methods** | **Uses** |
+| ----------- | -------- | ----------- | -------- |
+| **yr2month()** | Conversion of year to months | **wk2yr()** | Conversion of week to year |
+| **yr2wk()** | Conversion of year to week | **wk2month()** | Conversion of week to month |
+| **yr2days()** | Conversion of year to days | **wk2days()** | Conversion of week to days |
+| **yr2h()** | Conversion of year to hours | **wk2h()** | Conversion of week to hours |
+| **yr2min()** | Conversion of year to minutes | **wk2min()** | Conversion of week to minutes |
+| **yr2sec()** | Conversion of year to seconds | **wk2sec()** | Conversion of week to seconds |
+| **yr2millsec()** | Conversion of year to milliseconds | **wk2millsec()** | Conversion of week to milliseconds |
+| **yr2microsec()** | Conversion of year to microseconds | **wk2microsec()** | Conversion of week to microseconds |
+| **yr2picosec()** | Conversion of year to picoseconds | **wk2picosec()** | Conversion of week to picoseconds |
+
+Note : In the similar way further code content in available in [Time](https://github.com/ackwolver335/Calculator/blob/main/Time.py) file.
