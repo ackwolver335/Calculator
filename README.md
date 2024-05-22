@@ -122,3 +122,23 @@ It contains different units regarding the volumes in the real world, in this one
 | **mcub2af3()** | Conversion of mtr3 to af3 | **ltr2af3()** | Conversion of ltr to af3 |
 
 Note : Further code and resources will be available in [Volume](https://github.com/ackwolver335/Calculator/blob/main/volume.py) File.
+
+### Weight Module
+
+This Module contains different types of units or category of units regarding the calculations related to weights.
+
+| **Methods** | **Uses** | **Methods** | **Uses** |
+| ----------- | -------- | ----------- | -------- |
+| **kg2g()** | Coversion of kg to g | **g2tonne()** | Conversion of gram to tonne |
+| **kg2milligm()** | Conversion of kg to milligm | **g2kg()** | Conversion of gram to kg |
+| **kg2microgm()** | Conversion of kg to microgm | **g2mg()** | Conversion of gram to milligm |
+| **kg2tonne()** | Conversion of kg to tonne | **g2microg()** | Conversion of gram to microgm |
+| **kg2quintal()** | Conversion of kg to quintal | **g2quintal()** | Conversion of gram to quintal |
+| **kg2pound()** | Conversion of kg to pound | **g2pound()** | Conversion of gram to pound |
+| **kg2ounce()** | Conversion of kg to ounce | **g2ounce()** | Conversion of gram to ounce |
+| **kg2carat()** | Conversion of kg to carat | **g2carat()** | Conversion of gram to carat |
+| **kg2grain()** | Conversion of kg to grain | **g2grain()** | Conversion of gram to grain |
+| **kg2st()** | Conversion of kg to stone | **g2stone()** | Conversion of gram to stone |
+| **kg2dr()** | Conversion of kg to dram | **g2dram()** | Conversion of gram to dram |
+
+Note : Further Code explanation is been given in [Weight](https://github.com/ackwolver335/Calculator/blob/main/weight.py) file.
