@@ -82,7 +82,7 @@ class week:
         week = self.week * (6.048 * (10 ** 11))
         return week
 
-    def wk2pciosec(self):
+    def wk2picosec(self):
         week = self.week * (6.048 * (10 ** 17))
         return week
 
