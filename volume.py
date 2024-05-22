@@ -2,11 +2,6 @@
 # The units used in this one are as follow
 # mtr3, dm3, cm3, mm3, hl, ltr, dcltr, cntltr, mlltr, ft3, inch3, yd3, af3
 
-from decimal import DecimalException
-from ftplib import ftpcp
-from re import L
-
-
 class metre3:
     meter_cub = 0
 
