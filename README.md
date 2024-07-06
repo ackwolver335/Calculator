@@ -142,3 +142,20 @@ This Module contains different types of units or category of units regarding the
 | **kg2dr()** | Conversion of kg to dram | **g2dram()** | Conversion of gram to dram |
 
 Note : Further Code explanation is been given in [Weight](https://github.com/ackwolver335/Calculator/blob/main/weight.py) file.
+
+## 📫 How to Reach Me
+
+- **Email** - abhaych335@gmail.com
+- **Instagram** - [@being_chaudhary.ig](https://www.instagram.com/coding.needs/)
+- **Twitter** - [@AbhayCh84760](https://x.com/AbhayCh84760)
+
+## Support Me
+
+If you likes what I do and want to support me :
+
+- Give me a ⚡️ Star on my Repo
+- Share my [work](https://github.com/ackwolver335/Calculator) and [profile](https://github.com/ackwolver335) with your network
+
+Thanks for visiting my Github Repo ! Hope you find my projects useful, helpful and inspiring. Let's connect and collaborate to build something amazing !
+
+Abhay Chaudhary [Ack Wolver](https://github.com/ackwolver335/ackwolver335) !
