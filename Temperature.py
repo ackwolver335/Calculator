@@ -227,7 +227,7 @@ class Fahrenheit:
 class Kelvin:
     kelvin = 0
 
-    # ------------------------------------------ Initial Methods of Kelvin Class -----------------------------------------
+    # ------------------------------------------ Initial Methods of Kelvin Class ---------------------------------------------
     # ------------------------------------------------------------------------------------------------------------------------
     # This class and its methods has its original phase with its overall data on Github Repository : @ackwolver335 -----------
 
@@ -247,7 +247,6 @@ class Kelvin:
         """
 
         # Here we have a general use of pass keyword as we don't have further code in __init__() method.        
-
         pass
 
     def k2F(self,value):
@@ -333,23 +332,106 @@ class Kelvin:
 class Rankine:
     rankine = 0
 
-    def __init__(self,rank):
-        self.rankine = rank
+    # ------------------------------------------ Initial Methods of Rankine Class --------------------------------------------
+    # ------------------------------------------------------------------------------------------------------------------------
+    # This class and its methods has its original phase with its overall data on Github Repository : @ackwolver335 -----------
 
-    def rank2F(self):
-        rankine = self.rankine - 459
+    def __init__(self):
+
+        """
+            :: Temperature Module ::
+
+            Class : Rankine
+            Function : __init__(self) it don't contains different arguments at its initial phase
+            We are getting the data at the runtime of the Program.
+
+            Also the available data members of this one is explained below :
+            1. celsius : This is generally used in order to store the value after getting converted in the required unit in Temperature.
+
+            Temperature Module -> Designed by Abhay Chaudhary.
+        """
+
+        # Here we have a general use of pass keyword as we don't have further code in __init__() method.
+        pass
+
+    def rank2F(self,value):
+
+        """
+            :: Temperature Module  ::
+
+            Class : Rankine
+            Function : rank2F(self,value) is used for conversion of rankine unit of temperature to fahrenheit unit.
+
+            Arguments :
+            1. value : Used for storing the values in which is converted or to be convered into different units.
+
+            Temperature Module -> Designed by Abhay Chaudhary
+        """
+
+        # main code data and structure below 
+        # Also contains the formular regarding unit conversion
+
+        rankine = value - 459
         return rankine
     
-    def rank2C(self):
-        rankine = ((self.rankine - 32) - 459) / 1.8
+    def rank2C(self,value):
+
+        """
+            :: Temperature Module  ::
+
+            Class : Rankine
+            Function : rank2c(self,value) is used for conversion of rankine unit of temperature to celsius unit.
+
+            Arguments :
+            1. value : Used for storing the values in which is converted or to be convered into different units.
+
+            Temperature Module -> Designed by Abhay Chaudhary
+        """
+
+        # main code data and structure below 
+        # Also contains the formular regarding unit conversion
+
+        rankine = ((value - 32) - 459) / 1.8
         return rankine
 
-    def rank2k(self):
-        rankine = self.rankine / 1.8
+    def rank2k(self,value):
+
+        """
+            :: Temperature Module  ::
+
+            Class : Rankine
+            Function : rank2k(self,value) is used for conversion of rankine unit of temperature to kelvin unit.
+
+            Arguments :
+            1. value : Used for storing the values in which is converted or to be convered into different units.
+
+            Temperature Module -> Designed by Abhay Chaudhary
+        """
+
+        # main code data and structure below 
+        # Also contains the formular regarding unit conversion
+
+        rankine = value / 1.8
         return rankine
 
-    def rank2reaumur(self):
-        rankine = ((self.rankine - 32) - 459) / 2.25
+    def rank2reaumur(self,value):
+
+        """
+            :: Temperature Module  ::
+
+            Class : Rankine
+            Function : rank2reaumur(self,value) is used for conversion of rankine unit of temperature to reaumur unit.
+
+            Arguments :
+            1. value : Used for storing the values in which is converted or to be convered into different units.
+
+            Temperature Module -> Designed by Abhay Chaudhary
+        """
+
+        # main code data and structure below 
+        # Also contains the formular regarding unit conversion
+
+        rankine = ((value - 32) - 459) / 2.25
         return rankine
 
 class Reaumur:
