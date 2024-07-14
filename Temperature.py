@@ -227,23 +227,107 @@ class Fahrenheit:
 class Kelvin:
     kelvin = 0
 
-    def __init__(self,k):
-        self.kelvin = k
+    # ------------------------------------------ Initial Methods of Kelvin Class -----------------------------------------
+    # ------------------------------------------------------------------------------------------------------------------------
+    # This class and its methods has its original phase with its overall data on Github Repository : @ackwolver335 -----------
 
-    def k2F(self):
-        kelvin = (self.kelvin * 1.8) - 459
+    def __init__(self):
+
+        """
+            :: Temperature Module ::
+
+            Class : Kelvin
+            Function : __init__(self) it don't contains different arguments at its initial phase
+            We are getting the data at the runtime of the Program.
+
+            Also the available data members of this one is explained below :
+            1. celsius : This is generally used in order to store the value after getting converted in the required unit in Temperature.
+
+            Temperature Module -> Designed by Abhay Chaudhary.
+        """
+
+        # Here we have a general use of pass keyword as we don't have further code in __init__() method.        
+
+        pass
+
+    def k2F(self,value):
+
+        """
+            :: Temperature Module  ::
+
+            Class : Kelvin
+            Function : k2F(self,value) is used for conversion of kelvin unit of temperature to fahrenheit unit.
+
+            Arguments :
+            1. value : Used for storing the values in which is converted or to be convered into different units.
+
+            Temperature Module -> Designed by Abhay Chaudhary
+        """
+
+        # main code data and structure below 
+        # Also contains the formular regarding unit conversion
+
+        kelvin = (value * 1.8) - 459
         return kelvin
 
-    def k2c(self):
-        kelvin = self.kelvin - 273.15
+    def k2c(self,value):
+
+        """
+            :: Temperature Module  ::
+
+            Class : Kelvin
+            Function : k2c(self,value) is used for conversion of kelvin unit of temperature to celsius unit.
+
+            Arguments :
+            1. value : Used for storing the values in which is converted or to be convered into different units.
+
+            Temperature Module -> Designed by Abhay Chaudhary
+        """
+
+        # main code data and structure below 
+        # Also contains the formular regarding unit conversion
+
+        kelvin = value - 273.15
         return kelvin
 
-    def k2rankine(self):
-        kelvin = self.kelvin * 1.8
+    def k2rankine(self,value):
+
+        """
+            :: Temperature Module  ::
+
+            Class : Kelvin
+            Function : k2rankine(self,value) is used for conversion of kelvin unit of temperature to rankine unit.
+
+            Arguments :
+            1. value : Used for storing the values in which is converted or to be convered into different units.
+
+            Temperature Module -> Designed by Abhay Chaudhary
+        """
+
+        # main code data and structure below 
+        # Also contains the formular regarding unit conversion
+
+        kelvin = value * 1.8
         return kelvin
 
-    def k2reaumur(self):
-        kelvin = (self.kelvin - 273.15) * 0.8
+    def k2reaumur(self,value):
+
+        """
+            :: Temperature Module  ::
+
+            Class : Kelvin
+            Function : k2reaumur(self,value) is used for conversion of kelvin unit of temperature to reaumur unit.
+
+            Arguments :
+            1. value : Used for storing the values in which is converted or to be convered into different units.
+
+            Temperature Module -> Designed by Abhay Chaudhary
+        """
+
+        # main code data and structure below 
+        # Also contains the formular regarding unit conversion
+
+        kelvin = (value - 273.15) * 0.8
         return kelvin
 
 class Rankine:
