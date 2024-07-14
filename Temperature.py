@@ -437,21 +437,104 @@ class Rankine:
 class Reaumur:
     reaumur = 0
 
-    def __init__(self,reaum):
-        self.reaumur = reaum
+    # ------------------------------------------ Initial Methods of Reaumur Class --------------------------------------------
+    # ------------------------------------------------------------------------------------------------------------------------
+    # This class and its methods has its original phase with its overall data on Github Repository : @ackwolver335 -----------
 
-    def reaum2F(self):
-        reaumur = (self.reaumur * 2.25) + 32
+    def __init__(self):
+
+        """
+            :: Temperature Module ::
+
+            Class : Reaumur
+            Function : __init__(self) it don't contains different arguments at its initial phase
+            We are getting the data at the runtime of the Program.
+
+            Also the available data members of this one is explained below :
+            1. celsius : This is generally used in order to store the value after getting converted in the required unit in Temperature.
+
+            Temperature Module -> Designed by Abhay Chaudhary.
+        """
+
+        # Here we have a general use of pass keyword as we don't have further code in __init__() method.
+        pass
+
+    def reaum2F(self,value):
+
+        """
+            :: Temperature Module  ::
+
+            Class : Reaumur
+            Function : reaum2F(self,value) is used for conversion of reaumur unit of temperature to fahrenheit unit.
+
+            Arguments :
+            1. value : Used for storing the values in which is converted or to be convered into different units.
+
+            Temperature Module -> Designed by Abhay Chaudhary
+        """
+
+        # main code data and structure below 
+        # Also contains the formular regarding unit conversion
+
+        reaumur = (value * 2.25) + 32
         return reaumur
 
-    def reaum2C(self):
-        reaumur = self.reaumur * 1.25
+    def reaum2C(self,value):
+
+        """
+            :: Temperature Module  ::
+
+            Class : Reaumur
+            Function : reaum2C(self,value) is used for conversion of reaumur unit of temperature to celsius unit.
+
+            Arguments :
+            1. value : Used for storing the values in which is converted or to be convered into different units.
+
+            Temperature Module -> Designed by Abhay Chaudhary
+        """
+
+        # main code data and structure below 
+        # Also contains the formular regarding unit conversion
+
+        reaumur = value * 1.25
         return reaumur
 
-    def reaum2K(self):
-        reaumur = (self.reaumur * 1.25) + 273.15
+    def reaum2K(self,value):
+
+        """
+            :: Temperature Module  ::
+
+            Class : Reaumur
+            Function : reaum2K(self,value) is used for conversion of reaumur unit of temperature to kelvin unit.
+
+            Arguments :
+            1. value : Used for storing the values in which is converted or to be convered into different units.
+
+            Temperature Module -> Designed by Abhay Chaudhary
+        """
+
+        # main code data and structure below 
+        # Also contains the formular regarding unit conversion
+
+        reaumur = (value * 1.25) + 273.15
         return reaumur
 
-    def reaum2rank(self):
-        reaumur = ((self.reaumur * 2.25) + 32) + 459
+    def reaum2rank(self,value):
+
+        """
+            :: Temperature Module  ::
+
+            Class : Reaumur
+            Function : reaum2rank(self,value) is used for conversion of reaumur unit of temperature to rankine unit.
+
+            Arguments :
+            1. value : Used for storing the values in which is converted or to be convered into different units.
+
+            Temperature Module -> Designed by Abhay Chaudhary
+        """
+
+        # main code data and structure below 
+        # Also contains the formular regarding unit conversion
+
+        reaumur = ((value * 2.25) + 32) + 459
         return reaumur
