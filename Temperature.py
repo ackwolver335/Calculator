@@ -122,22 +122,105 @@ class celsius:
 class Fahrenheit:
     fahrenheit = 0
 
-    def __init__(self,F):
-        self.fahrenheit = F
+    # ------------------------------------------ Initial Methods of Fahrenhiet Class -----------------------------------------
+    # ------------------------------------------------------------------------------------------------------------------------
+    # This class and its methods has its original phase with its overall data on Github Repository : @ackwolver335 -----------
 
-    def f2c(self):
-        fahrenheit = (self.fahrenheit - 32) / 1.8
+    def __init__(self):
+
+        """
+            :: Temperature Module ::
+            
+            Class : Fahrenheit
+            Function : __init__(self) this is a general initiating function or method that is used in order to initiate the class
+            Further data is over to the runtime of the class's method.
+
+            Also below we have the variable available and used in this class :
+            1. fahrenheit : It is used for storing and then returning the data after getting its final unit value in Temperature.
+
+            Temperature Module -> Designed by Abhay Chaudhary
+        """
+
+        # General pass keyword or statement added for simple __init__() method.
+        pass
+
+    def f2c(self,value):
+
+        """
+            :: Temperature Module ::
+
+            Class : Fahrenheit
+            Function : f2c(self,value) it is structured and is been defined in a way in order to convert the fahrenheit into celsius
+
+            Arguments :
+            1. value : Used for conversion from initial fahrenheit unit to final celsius unit
+
+            Temperature Module -> Designed by Abhay Chaudhary
+        """
+
+        # main code data and structure below
+        # also we have the formula if someone visit the module and want to know how to code works
+    
+        fahrenheit = (value - 32) / 1.8
         return fahrenheit
 
-    def f2k(self):
-        fahrenheit = (self.fahrenheit + 459) / 1.8
+    def f2k(self,value):
+
+        """
+            :: Temperature Module  ::
+
+            Class : Fahrenheit
+            Function : f2k(self,value) is used for conversion of fahrenheit unit of temperature to kelvin unit.
+
+            Arguments :
+            1. value : Used for storing the values in which is converted or to be convered into different units.
+
+            Temperature Module -> Designed by Abhay Chaudhary
+        """
+
+        # main code data and structure below 
+        # Also contains the formular regarding unit conversion
+
+        fahrenheit = (value + 459) / 1.8
         return fahrenheit
 
-    def f2rankine(self):
-        fahrenheit = self.fahrenheit + 459
+    def f2rankine(self,value):
+        
+        """
+            :: Temperature Module  ::
+
+            Class : Fahrenheit
+            Function : f2rankine(self,value) is used for conversion of fahrenheit unit of temperature to rankine unit.
+
+            Arguments :
+            1. value : Used for storing the values in which is converted or to be convered into different units.
+
+            Temperature Module -> Designed by Abhay Chaudhary
+        """
+
+        # main code data and structure below 
+        # Also contains the formular regarding unit conversion
+
+        fahrenheit = value + 459
         return fahrenheit
 
-    def fsreaumur(self):
+    def f2reaumur(self,value):
+
+        """
+            :: Temperature Module  ::
+
+            Class : Fahrenheit
+            Function : f2reaumur(self,value) is used for conversion of fahrenheit unit of temperature to reaumur unit.
+
+            Arguments :
+            1. value : Used for storing the values in which is converted or to be convered into different units.
+
+            Temperature Module -> Designed by Abhay Chaudhary
+        """
+
+        # main code data and structure below 
+        # Also contains the formular regarding unit conversion
+
         fahrenheit = (self.fahrenheit - 32) / 2.25
         return fahrenheit
 
