@@ -47,44 +47,44 @@ class Bit:
 class Byte:
     byte = 0
 
-    def __init__(self,byt):
-        self.byte = byt
+    def __init__(self):
+        pass
 
-    def byt2bt(self):
-        byte = self.byte * 8
-        return byte
+    def byt2bt(self,byt):
+        self.byte = byt * 8
+        return self.byte
 
-    def byt2kb(self):
-        byte = self.byte / 1024
-        return byte
+    def byt2kb(self,byt):
+        self.byte = byt / 1024
+        return self.byte
 
-    def byt2mb(self):
-        byte = self.byte / (1024 ** 2)
-        return byte
+    def byt2mb(self,byt):
+        self.byte = byt / (1024 ** 2)
+        return self.byte
     
-    def byt2gb(self):
-        byte = self.byte / (1024 ** 3)
-        return byte
+    def byt2gb(self,byt):
+        self.byte = byt / (1024 ** 3)
+        return self.byte
 
-    def byt2tb(self):
-        byte = self.byte / (1024 ** 4)
-        return byte
+    def byt2tb(self,byt):
+        self.byte = byt / (1024 ** 4)
+        return self.byte
     
-    def byt2pb(self):
-        byte = self.byte / (1024 ** 5)
-        return byte
+    def byt2pb(self,byt):
+        self.byte = byt / (1024 ** 5)
+        return self.byte
 
-    def byt2eb(self):
-        byte = self.byte / (1024 ** 6)
-        return byte
+    def byt2eb(self,byt):
+        self.byte = byt / (1024 ** 6)
+        return self.byte
 
-    def byt2zb(self):
-        byte = self.byte / (1024 ** 7)
-        return byte
+    def byt2zb(self,byt):
+        self.byte = byt / (1024 ** 7)
+        return self.byte
 
-    def byt2yb(self):
-        byte = self.byte / (1024 ** 8)
-        return byte
+    def byt2yb(self,byt):
+        self.byte = byt / (1024 ** 8)
+        return self.byte
 
 class kilobyte:
     kilobyt = 0
