@@ -173,44 +173,44 @@ class megabyte:
 class gigabyt:
     ggbyt = 0
 
-    def __init__(self,gb):
-        self.ggbyt = gb
+    def __init__(self):
+        pass
 
-    def gb2bit(self):
-        ggbyt = self.ggbyt * ((1024 ** 3) * 8)
-        return ggbyt
+    def gb2bit(self,gb):
+        self.ggbyt = gb * ((1024 ** 3) * 8)
+        return self.ggbyt
 
-    def gb2byte(self):
-        ggbyt = self.ggbyt * (1024 ** 3)
-        return ggbyt
+    def gb2byte(self,gb):
+        self.ggbyt = gb * (1024 ** 3)
+        return self.ggbyt
 
-    def gb2kb(self):
-        ggbyt = self.ggbyt * (1024 ** 2)
-        return ggbyt
+    def gb2kb(self,gb):
+        self.ggbyt = gb * (1024 ** 2)
+        return self.ggbyt
 
-    def gb2mb(self):
-        ggbyt = self.ggbyt * 1024
-        return ggbyt
+    def gb2mb(self,gb):
+        self.ggbyt = gb * 1024
+        return self.ggbyt
     
-    def gb2tb(self):
-        ggbyt = self.ggbyt / 1024
-        return ggbyt
+    def gb2tb(self,gb):
+        self.ggbyt = gb / 1024
+        return self.ggbyt
 
-    def gb2pb(self):
-        ggbyt = self.ggbyt / (1024 ** 2)
-        return ggbyt
+    def gb2pb(self,gb):
+        self.ggbyt = gb / (1024 ** 2)
+        return self.ggbyt
 
-    def gb2eb(self):
-        ggbyt = self.ggbyt / (1024 ** 3)
-        return ggbyt 
+    def gb2eb(self,gb):
+        self.ggbyt = gb / (1024 ** 3)
+        return self.ggbyt 
 
-    def gb2zb(self):
-        ggbyt = self.ggbyt / (1024 ** 4)
-        return ggbyt
+    def gb2zb(self,gb):
+        self.ggbyt = gb / (1024 ** 4)
+        return self.ggbyt
 
-    def gb2yb(self):
-        ggbyt = self.ggbyt / (1024 ** 5)
-        return ggbyt
+    def gb2yb(self,gb):
+        self.ggbyt = gb / (1024 ** 5)
+        return self.ggbyt
 
 class terabyt:
     tbyt = 0
