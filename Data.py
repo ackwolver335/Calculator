@@ -5,44 +5,44 @@
 class Bit:
     bit = 0
 
-    def __init__(self,bt):
-        self.bit = bt
+    def __init__(self):
+        pass
 
-    def bt2byte(self):
-        bit = self.bit / 8
-        return bit
+    def bt2byte(self,bt):
+        self.bit = bit / 8
+        return self.bit
 
-    def bt2kb(self):
-        bit = self.bit / (8 * 1024)
-        return bit
+    def bt2kb(self,bt):
+        self.bit = bit / (8 * 1024)
+        return self.bit
 
-    def bt2mb(self):
-        bit = self.bit / (8 * (1024 ** 2))
-        return bit
+    def bt2mb(self,bt):
+        self.bit = bt / (8 * (1024 ** 2))
+        return self.bit
 
-    def bt2gb(self):
-        bit = self.bit / (8 * (1024 ** 3))
-        return bit
+    def bt2gb(self,bt):
+        self.bit = bt / (8 * (1024 ** 3))
+        return self.bit
 
-    def bt2tb(self):
-        bit = self.bit / (8 * (1024 ** 4))
-        return bit
+    def bt2tb(self,bt):
+        self.bit = bt / (8 * (1024 ** 4))
+        return self.bit
 
-    def bt2pb(self):
-        bit = self.bit / (8 * (1024 ** 5))
-        return bit
+    def bt2pb(self,bt):
+        self.bit = bt / (8 * (1024 ** 5))
+        return self.bit
 
-    def bt2eb(self):
-        bit = self.bit / (8 * (1024 ** 6))
-        return bit
+    def bt2eb(self,bt):
+        self.bit = bt / (8 * (1024 ** 6))
+        return self.bit
 
-    def bt2zb(self):
-        bit = self.bit / (8 * (1024 ** 7))
-        return bit
+    def bt2zb(self,bt):
+        self.bit = bt / (8 * (1024 ** 7))
+        return self.bit
 
-    def bt2yb(self):
-        bit = self.bit / (8 * (1024 ** 8))
-        return bit
+    def bt2yb(self,bt):
+        self.bit = bt / (8 * (1024 ** 8))
+        return self.bit
 
 class Byte:
     byte = 0
