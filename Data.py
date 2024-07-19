@@ -215,44 +215,44 @@ class gigabyt:
 class terabyt:
     tbyt = 0
 
-    def __init__(self,tb):
-        self.tbyt = tb
+    def __init__(self):
+        pass
 
-    def tb2bit(self):
-        tbyt = self.tbyt * ((1024 ** 4) * 8)
-        return tbyt
+    def tb2bit(self,tb):
+        self.tbyt = tb * ((1024 ** 4) * 8)
+        return self.tbyt
 
-    def tb2byt(self):
-        tbyt = self.tbyt * (1024 ** 4)
-        return tbyt
+    def tb2byt(self,tb):
+        self.tbyt = tb * (1024 ** 4)
+        return self.tbyt
 
-    def tb2kb(self):
-        tbyt = self.tbyt * (1024 ** 3)
-        return tbyt 
+    def tb2kb(self,tb):
+        self.tbyt = tb * (1024 ** 3)
+        return self.tbyt 
 
-    def tb2mb(self):
-        tbyt = self.tbyt * (1024 ** 2)
-        return tbyt
+    def tb2mb(self,tb):
+        self.tbyt = tb * (1024 ** 2)
+        return self.tbyt
 
-    def tb2gb(self):
-        tbyt = self.tbyt * 1024
-        return tbyt
+    def tb2gb(self,tb):
+        self.tbyt = tb * 1024
+        return self.tbyt
 
-    def tb2pb(self):
-        tbyt = self.tbyt / 1024
-        return tbyt
+    def tb2pb(self,tb):
+        self.tbyt = tb / 1024
+        return self.tbyt
 
-    def tb2eb(self):
-        tbyt = self.tbyt / (1024 ** 2)
-        return tbyt
+    def tb2eb(self,tb):
+        self.tbyt = tb / (1024 ** 2)
+        return self.tbyt
 
-    def tb2zb(self):
-        tbyt = self.tbyt / (1024 ** 3)
-        return tbyt
+    def tb2zb(self,tb):
+        self.tbyt = tb / (1024 ** 3)
+        return self.tbyt
 
-    def tb2yb(self):
-        tbyt = self.tbyt / (1024 ** 4)
-        return tbyt
+    def tb2yb(self,tb):
+        self.tbyt = tb / (1024 ** 4)
+        return self.tbyt
 
 class picobyt:
     pcbyt = 0
