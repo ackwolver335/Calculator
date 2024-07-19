@@ -383,41 +383,41 @@ class zetabyte:
 class yotabyte:
     ytbty = 0
 
-    def __init__(self,yb):
-        self.ytbyt = yb
+    def __init__(self):
+        pass
     
-    def yb2bit(self):
-        ytbyt = self.ytbyt * ((1024 ** 8) * 8)
-        return ytbyt
+    def yb2bit(self,yb):
+        self.ytbyt = yb * ((1024 ** 8) * 8)
+        return self.ytbyt
 
-    def yb2byt(self):
-        ytbyt = self.ytbyt * (1024 ** 8)
-        return ytbyt
+    def yb2byt(self,yb):
+        self.ytbyt = yb * (1024 ** 8)
+        return self.ytbyt
     
-    def yb2kb(self):
-        ytbyt = self.ytbyt * (1024 ** 7)
-        return ytbyt
+    def yb2kb(self,yb):
+        self.ytbyt = yb * (1024 ** 7)
+        return self.ytbyt
     
-    def yb2mb(self):
-        ytbyt = self.ytbyt * (1024 ** 6)
-        return ytbyt
+    def yb2mb(self,yb):
+        self.ytbyt = yb * (1024 ** 6)
+        return self.ytbyt
 
-    def yb2gb(self):
-        ytbyt = self.ytbyt * (1024 ** 5)
-        return ytbyt
+    def yb2gb(self,yb):
+        self.ytbyt = yb * (1024 ** 5)
+        return self.ytbyt
 
-    def yb2tb(self):
-        ytbyt = self.ytbyt * (1024 ** 4)
-        return ytbyt 
+    def yb2tb(self,yb):
+        self.ytbyt = yb * (1024 ** 4)
+        return yself.tbyt 
 
-    def yb2pb(self):
-        ytbyt = self.ytbyt * (1024 ** 3)
-        return ytbyt
+    def yb2pb(self,yb):
+        self.ytbyt = yb * (1024 ** 3)
+        return self.ytbyt
 
-    def yb2eb(self):
-        ytbyt = self.ytbyt * (1024 ** 2)
-        return ytbyt 
+    def yb2eb(self,yb):
+        self.ytbyt = yb * (1024 ** 2)
+        return yself.tbyt 
 
-    def yb2zb(self):
-        ytbyt = self.ytbyt * 1024
-        return ytbyt
+    def yb2zb(self,yb):
+        self.ytbyt = yb * 1024
+        return self.ytbyt
