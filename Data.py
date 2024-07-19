@@ -89,44 +89,44 @@ class Byte:
 class kilobyte:
     kilobyt = 0
 
-    def __init__(self,kb):
-        self.kilobyt = kb
+    def __init__(self):
+        pass
 
-    def kb2bit(self):
-        kilobyt = self.kilobyt * 1024 * 8
-        return kilobyt
+    def kb2bit(self,kb):
+        self.kilobyt = kb * 1024 * 8
+        return self.kilobyt
 
-    def kb2byte(self):
-        kilobyt = self.kilobyt * 1024
-        return kilobyt
+    def kb2byte(self,kb):
+        self.kilobyt = self.kilobyt * 1024
+        return self.kilobyt
 
-    def kb2mb(self):
-        kilobyt = self.kilobyt / 1024
-        return kilobyt
+    def kb2mb(self,kb):
+        self.kilobyt = kb / 1024
+        return self.kilobyt
 
-    def kb2gb(self):
-        kilobyt = self.kilobyt / (1024 ** 2)
-        return kilobyt
+    def kb2gb(self,kb):
+        self.kilobyt = kb / (1024 ** 2)
+        return self.kilobyt
 
-    def kb2tb(self):
-        kilobyt = self.kilobyt / (1024 ** 3)
-        return kilobyt
+    def kb2tb(self,kb):
+        self.kilobyt = kb / (1024 ** 3)
+        return self.kilobyt
 
-    def kb2pb(self):
-        kilobyt = self.kilobyt / (1024 ** 4)
-        return kilobyt
+    def kb2pb(self,kb):
+        self.kilobyt = kb / (1024 ** 4)
+        return self.kilobyt
 
-    def kb2eb(self):
-        kilobyt = self.kilobyt / (1024 ** 5)
-        return kilobyt
+    def kb2eb(self,kb):
+        self.kilobyt = kb / (1024 ** 5)
+        return self.kilobyt
 
-    def kb2zb(self):
-        kilobyt = self.kilobyt / (1024 ** 6)
-        return kilobyt
+    def kb2zb(self,kb):
+        self.kilobyt = kb / (1024 ** 6)
+        return self.kilobyt
     
-    def kb2yb(self):
-        kilobyt = self.kilobyt / (1024 ** 7)
-        return kilobyt
+    def kb2yb(self,kb):
+        self.kilobyt = kb / (1024 ** 7)
+        return self.kilobyt
 
 class megabyte:
     mgbyt = 0
