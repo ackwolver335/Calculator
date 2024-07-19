@@ -299,44 +299,44 @@ class picobyt:
 class exabyt:
     exbyt = 0
 
-    def __init__(self,eb):
-        self.exbyt = eb
+    def __init__(self):
+        pass
     
-    def eb2bit(self):
-        exbyt = self.exbyt * ((1024 ** 6) * 8)
-        return exbyt
+    def eb2bit(self,eb):
+        self.exbyt = eb * ((1024 ** 6) * 8)
+        return self.exbyt
 
-    def eb2byt(self):
-        exbyt = self.exbyt * (1024 ** 6)
-        return exbyt
+    def eb2byt(self,eb):
+        self.exbyt = eb * (1024 ** 6)
+        return self.exbyt
 
-    def eb2kb(self):
-        exbyt = self.exbyt * (1024 ** 5)
-        return exbyt
+    def eb2kb(self,eb):
+        self.exbyt = eb * (1024 ** 5)
+        return self.exbyt
 
-    def eb2mb(self):
-        exbyt = self.exbyt * (1024 ** 4)
-        return exbyt 
+    def eb2mb(self,eb):
+        self.exbyt = eb * (1024 ** 4)
+        return eself.xbyt 
 
-    def eb2gb(self):
-        exbyt = self.exbyt * (1024 ** 3)
-        return exbyt
+    def eb2gb(self,eb):
+        self.exbyt = eb * (1024 ** 3)
+        return self.exbyt
 
-    def eb2tb(self):
-        exbyt = self.exbyt * (1024 ** 2)
-        return exbyt
+    def eb2tb(self,eb):
+        self.exbyt = eb * (1024 ** 2)
+        return self.exbyt
 
-    def eb2pb(self):
-        exbyt = self.exbyt * 1024
-        return exbyt
+    def eb2pb(self,eb):
+        self.exbyt = eb * 1024
+        return self.exbyt
     
-    def eb2zb(self):
-        exbyt = self.exbyt / 1024
-        return exbyt
+    def eb2zb(self,eb):
+        self.exbyt = eb / 1024
+        return self.exbyt
 
-    def eb2yb(self):
-        exbyt = self.exbyt / (1024 ** 2)
-        return exbyt
+    def eb2yb(self,eb):
+        self.exbyt = eb / (1024 ** 2)
+        return self.exbyt
 
 class zetabyte:
     ztbyt = 0
