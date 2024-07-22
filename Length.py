@@ -55,52 +55,52 @@ class kilometer:
 class meter:
     meter = 0
 
-    def __init__(self,m):
-        self.meter = m
+    def __init__(self):
+        pass
 
-    def m2km(self):
-        meter = self.meter / 1000
-        return meter
+    def m2km(self,m):
+        self.meter = m / 1000
+        return self.meter
 
-    def m2cm(self):
-        meter = self.meter * 100
-        return meter
+    def m2cm(self,m):
+        self.meter = m * 100
+        return self.meter
 
-    def m2dm(self):
-        meter = self.meter * 10
-        return meter
+    def m2dm(self,m):
+        self.meter = m * 10
+        return self.meter
 
-    def m2mm(self):
-        meter = self.meter * 1000
-        return meter
+    def m2mm(self,m):
+        self.meter = m * 1000
+        return self.meter
 
-    def m2um(self):
-        meter = self.meter * (10 ** 6)
-        return meter
+    def m2um(self,m):
+        self.meter = m * (10 ** 6)
+        return self.meter
 
-    def m2nm(self):
-        meter = self.meter * (10 ** 9)
-        return meter
+    def m2nm(self,m):
+        self.meter = m * (10 ** 9)
+        return self.meter
 
-    def m2pm(self):
-        meter = self.meter * (10 ** 12)
-        return meter
+    def m2pm(self,m):
+        self.meter = m * (10 ** 12)
+        return self.meter
 
-    def m2miles(self):
-        meter = self.meter * 0.00062
-        return meter
+    def m2miles(self,m):
+        self.meter = m * 0.00062
+        return self.meter
 
-    def m2yard(self):
-        meter = self.meter * 1.09
-        return meter
+    def m2yard(self,m):
+        self.meter = m * 1.09
+        return self.meter
 
-    def m2foot(self):
-        meter = self.meter * 3.28
-        return meter
+    def m2foot(self,m):
+        self.meter = m * 3.28
+        return self.meter
 
-    def m2inches(self):
-        meter = self.meter * 39.3
-        return meter
+    def m2inches(self,m):
+        self.meter = m * 39.3
+        return self.meter
 
 class decimeter:
     decimeter = 0
