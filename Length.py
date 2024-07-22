@@ -105,52 +105,52 @@ class meter:
 class decimeter:
     decimeter = 0
 
-    def __init__(self,dm):
-        self.decimeter = dm
+    def __init__(self):
+        pass
 
-    def dm2km(self):
-        decimeter = self.decimeter / (10 ** 4)
-        return decimeter
+    def dm2km(self,dm):
+        self.decimeter = dm / (10 ** 4)
+        return self.decimeter
 
-    def dm2m(self):
-        decimeter = self.decimeter / 10
-        return decimeter
+    def dm2m(self,dm):
+        self.decimeter = dm / 10
+        return self.decimeter
 
-    def dm2cm(self):
-        decimeter = self.decimeter * 10
-        return decimeter
+    def dm2cm(self,dm):
+        self.decimeter = dm * 10
+        return self.decimeter
 
-    def dm2mm(self):
-        decimeter = self.decimeter * 100
-        return decimeter
+    def dm2mm(self,dm):
+        self.decimeter = dm * 100
+        return self.decimeter
 
-    def dm2um(self):
-        decimeter = self.decimeter * (10 ** 5)
-        return decimeter
+    def dm2um(self,dm):
+        self.decimeter = dm * (10 ** 5)
+        return self.decimeter
 
-    def dm2nm(self):
-        decimeter = self.decimeter * (10 ** 8)
-        return decimeter
+    def dm2nm(self,dm):
+        self.decimeter = dm * (10 ** 8)
+        return self.decimeter
 
-    def dm2pm(self):
-        decimeter = self.decimeter * (10 ** 11)
-        return decimeter
+    def dm2pm(self,dm):
+        self.decimeter = dm * (10 ** 11)
+        return self.decimeter
 
-    def dm2miles(self):
-        decimeter = self.decimeter * (6.21371192 / (10 ** 5))
-        return decimeter
+    def dm2miles(self,dm):
+        self.decimeter = dm * (6.21371192 / (10 ** 5))
+        return self.decimeter
 
-    def dm2yard(self):
-        decimeter = self.decimeter * 0.1093
-        return decimeter
+    def dm2yard(self,dm):
+        self.decimeter = dm * 0.1093
+        return self.decimeter
 
-    def dm2foot(self):
-        decimeter = self.decimeter * 0.3280
-        return decimeter
+    def dm2foot(self,dm):
+        self.decimeter = dm * 0.3280
+        return self.decimeter
 
-    def dm2inches(self):
-        decimeter = self.decimeter * 3.937
-        return decimeter
+    def dm2inches(self,dm):
+        self.decimeter = dm * 3.937
+        return self.decimeter
 
 class centimeter:
     centimeter = 0
