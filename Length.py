@@ -5,52 +5,52 @@
 class kilometer:
     kilometer = 0
 
-    def __init__(self,km):
-        self.kilometer = km
+    def __init__(self):
+        pass
     
-    def km2meter(self):
-        kilometer = self.kilometer * 1000
-        return kilometer
+    def km2meter(self,km):
+        self.kilometer = km * 1000
+        return self.kilometer
 
-    def km2dm(self):
-        kilometer = self.kilometer * 10000
-        return kilometer
+    def km2dm(self,km):
+        self.kilometer = km * 10000
+        return self.kilometer
 
-    def km2cm(self):
-        kilometer = self.kilometer * (10 ** 5)
-        return kilometer
+    def km2cm(self,km):
+        self.kilometer = km * (10 ** 5)
+        return self.kilometer
 
-    def km2mm(self):
-        kilometer = self.kilometer * (10 ** 6)
-        return kilometer
+    def km2mm(self,km):
+        self.kilometer = km * (10 ** 6)
+        return self.kilometer
 
-    def km2um(self):
-        kilometer = self.kilometer * (10 ** 9)
-        return kilometer
+    def km2um(self,km):
+        self.kilometer = km * (10 ** 9)
+        return self.kilometer
 
-    def km2nm(self):
-        kilometer = self.kilometer * (10 ** 12)
-        return kilometer
+    def km2nm(self,km):
+        self.kilometer = km * (10 ** 12)
+        return self.kilometer
 
-    def km2pm(self):
-        kilometer = self.kilometer * (10 ** 15)
-        return kilometer
+    def km2pm(self,km):
+        self.kilometer = km * (10 ** 15)
+        return self.kilometer
 
-    def km2miles(self):
-        kilometer = self.kilometer * 0.621
-        return kilometer
+    def km2miles(self,km):
+        self.kilometer = km * 0.621
+        return self.kilometer
 
-    def km2foot(self):
-        kilometer = self.kilometer * 3280
-        return kilometer
+    def km2foot(self,km):
+        self.kilometer = km * 3280
+        return self.kilometer
 
-    def km2yard(self):
-        kilometer = self.kilometer  * 1093
-        return kilometer
+    def km2yard(self,km):
+        self.kilometer = km  * 1093
+        return self.kilometer
 
-    def km2inches(self):
-        kilometer = self.kilometer * 39370
-        return kilometer
+    def km2inches(self,km):
+        self.kilometer = km * 39370
+        return self.kilometer
 
 class meter:
     meter = 0
