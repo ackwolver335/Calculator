@@ -451,52 +451,52 @@ class mile:
 class yard:
     yard = 0
 
-    def __init__(self,yd):
-        self.yard = yd
+    def __init__(self):
+        pass
 
-    def yd2km(self):
-        yard = self.yard * 0.000914
-        return yard
+    def yd2km(self,yd):
+        self.yard = yd * 0.000914
+        return self.yard
 
-    def yd2m(self):
-        yard = self.yard * 0.9144
-        return yard
+    def yd2m(self,yd):
+        self.yard = yd * 0.9144
+        return self.yard
 
-    def yd2cm(self):
-        yard = self.yard * 91
-        return yard
+    def yd2cm(self,yd):
+        self.yard = yd * 91
+        return self.yard
 
-    def yd2dm(self):
-        yard = self.yard * 9.1
-        return yard
+    def yd2dm(self,yd):
+        self.yard = yd * 9.1
+        return self.yard
 
-    def yd2mm(self):
-        yard = self.yard * 914
-        return yard
+    def yd2mm(self,yd):
+        self.yard = yd * 914
+        return self.yard
     
-    def yd2um(self):
-        yard = self.yard * 914400
-        return yard
+    def yd2um(self,yd):
+        self.yard = yd * 914400
+        return self.yard
 
-    def yd2nm(self):
-        yard = self.yard * (9144 * (10 ** 5))
-        return yard
+    def yd2nm(self,yd):
+        self.yard = yd * (9144 * (10 ** 5))
+        return self.yard
     
-    def yd2pm(self):
-        yard = self.yard * (9144 * (10 ** 11))
-        return yard
+    def yd2pm(self,yd):
+        self.yard = yd * (9144 * (10 ** 11))
+        return self.yard
 
-    def yd2mile(self):
-        yard = self.yard * 0.00056
-        return yard
+    def yd2mile(self,yd):
+        self.yard = yd * 0.00056
+        return self.yard
 
-    def yd2foot(self):
-        yard = self.yard * 3
-        return yard
+    def yd2foot(self,yd):
+        self.yard = yd * 3
+        return self.yard
 
-    def yd2inches(self):
-        yard = self.yard * 36
-        return yard
+    def yd2inches(self,yd):
+        self.yard = yd * 36
+        return self.yard
 
 class Foot:
     Foot = 0
