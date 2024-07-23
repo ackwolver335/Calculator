@@ -251,52 +251,52 @@ class millimeter:
 class micrometer:
     micrometer = 0
 
-    def __init__(self,um):
-        self.micometer = um
+    def __init__(self):
+        pass
 
-    def um2km(self):
-        micrometer = self.micrometer / (10 ** 9)
-        return micrometer
+    def um2km(self,microm):
+        self.micrometer = microm / (10 ** 9)
+        return self.micrometer
 
-    def um2m(self):
-        micrometer = self.micrometer / (10 ** 6)
-        return micrometer
+    def um2m(self,microm):
+        self.micrometer = microm / (10 ** 6)
+        return self.micrometer
 
-    def um2cm(self):
-        micrometer = self.micrometer / (10 ** 4)
-        return micrometer
+    def um2cm(self,microm):
+        self.micrometer = microm / (10 ** 4)
+        return self.micrometer
 
-    def um2dm(self):
-        micrometer = self.micrometer / (10 ** 5)
-        return micrometer
+    def um2dm(self,microm):
+        self.micrometer = microm / (10 ** 5)
+        return self.micrometer
 
-    def um2mm(self):
-        micrometer = self.micrometer / 1000
-        return micrometer
+    def um2mm(self,microm):
+        self.micrometer = microm / 1000
+        return self.micrometer
 
-    def um2nm(self):
-        micrometer = self.micrometer * 1000
-        return micrometer
+    def um2nm(self,microm):
+        self.micrometer = microm * 1000
+        return self.micrometer
 
-    def um2pm(self):
-        micrometer = self.micrometer * (10 ** 6)
-        return micrometer
+    def um2pm(self,microm):
+        self.micrometer = microm * (10 ** 6)
+        return self.micrometer
 
-    def um2miles(self):
-        micrometer = self.micrometer * (6.21371192 / (10 ** 10))
-        return micrometer
+    def um2miles(self,microm):
+        self.micrometer = microm * (6.21371192 / (10 ** 10))
+        return self.micrometer
 
-    def um2yard(self):
-        micrometer = self.micrometer * (1.0936133 / (10 ** 6))
-        return micrometer
+    def um2yard(self,microm):
+        self.micrometer = microm * (1.0936133 / (10 ** 6))
+        return self.micrometer
 
-    def um2foot(self):
-        micrometer = self.micrometer * (3.2808399 / (10 ** 6))
-        return micrometer
+    def um2foot(self,microm):
+        self.micrometer = microm * (3.2808399 / (10 ** 6))
+        return self.micrometer
 
-    def um2inches(self):
-        micrometer = self.micrometer * (3.93700787 / (10 ** 5))
-        return micrometer
+    def um2inches(self,microm):
+        self.micrometer = microm * (3.93700787 / (10 ** 5))
+        return self.micrometer
 
 class nanometer:
     nanometer = 0
