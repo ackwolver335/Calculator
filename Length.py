@@ -351,52 +351,52 @@ class nanometer:
 class picometer:
     picometer = 0
 
-    def __init__(self,pm):
-        self.picometer = pm
+    def __init__(self):
+        pass
 
-    def pm2km(self):
-        picometer = self.picometer / (10 ** 15)
-        return picometer
+    def pm2km(self,pm):
+        self.picometer = pm / (10 ** 15)
+        return self.picometer
 
-    def pm2m(self):
-        picometer = self.picometer / (10 ** 12)
-        return picometer
+    def pm2m(self,pm):
+        self.picometer = pm / (10 ** 12)
+        return self.picometer
 
-    def pm2cm(self):
-        picometer = self.picometer / (10 ** 10)
-        return picometer
+    def pm2cm(self,pm):
+        self.picometer = pm / (10 ** 10)
+        return self.picometer
 
-    def pm2dm(self):
-        picometer = self.picometer / (10 ** 11)
-        return picometer
+    def pm2dm(self,pm):
+        self.picometer = pm / (10 ** 11)
+        return self.picometer
 
-    def pm2mm(self):
-        picometer = self.picometer / (10 ** 9)
-        return picometer
+    def pm2mm(self,pm):
+        self.picometer = pm / (10 ** 9)
+        return self.picometer
 
-    def pm2um(self):
-        picometer = self.picometer / (10 ** 6)
-        return picometer
+    def pm2um(self,pm):
+        self.picometer = pm / (10 ** 6)
+        return self.picometer
 
-    def pm2nm(self):
-        picometer = self.picometer / 1000
-        return picometer
+    def pm2nm(self,pm):
+        self.picometer = pm / 1000
+        return self.picometer
 
-    def pm2miles(self):
-        picometer = self.picometer * (6.21371192 / (10 ** 16))
-        return picometer
+    def pm2miles(self,pm):
+        self.picometer = pm * (6.21371192 / (10 ** 16))
+        return self.picometer
 
-    def pm2yard(self):
-        picometer = self.picometer * (1.0936133 / (10 ** 12))
-        return picometer
+    def pm2yard(self,pm):
+        self.picometer = pm * (1.0936133 / (10 ** 12))
+        return self.picometer
 
-    def pm2foot(self):
-        picometer = self.picometer * (3.2808399 / (10 ** 12))
-        return picometer
+    def pm2foot(self,pm):
+        self.picometer = pm * (3.2808399 / (10 ** 12))
+        return self.picometer
 
-    def pm2inches(self):
-        picometer = self.picometer * (3.93700787 / (10 ** 11))
-        return picometer
+    def pm2inches(self,pm):
+        self.picometer = pm * (3.93700787 / (10 ** 11))
+        return self.picometer
 
 class mile:
     mile = 0
