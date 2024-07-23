@@ -301,52 +301,52 @@ class micrometer:
 class nanometer:
     nanometer = 0
 
-    def __init__(self,nm):
-        self.nanometer = nm
+    def __init__(self):
+        pass
 
-    def nm2km(self):
-        nanometer = self.nanometer / (10 ** 12)
-        return nanometer
+    def nm2km(self,nm):
+        self.nanometer = nm / (10 ** 12)
+        return self.nanometer
 
-    def nm2m(self):
-        nanometer = self.nanometer / (10 ** 9)
-        return nanometer
+    def nm2m(self,nm):
+        self.nanometer = nm / (10 ** 9)
+        return self.nanometer
 
-    def nm2cm(self):
-        nanometer = self.nanometer / (10 ** 7)
-        return nanometer
+    def nm2cm(self,nm):
+        self.nanometer = nm / (10 ** 7)
+        return self.nanometer
 
-    def nm2dm(self):
-        nanometer = self.nanometer / (10 ** 8)
-        return nanometer
+    def nm2dm(self,nm):
+        self.nanometer = nm / (10 ** 8)
+        return self.nanometer
 
-    def nm2mm(self):
-        nanometer = self.nanometer / (10 ** 6)
-        return nanometer
+    def nm2mm(self,nm):
+        self.nanometer = nm / (10 ** 6)
+        return self.nanometer
 
-    def nm2um(self):
-        nanometer = self.nanometer / 1000
-        return nanometer
+    def nm2um(self,nm):
+        self.nanometer = nm / 1000
+        return self.nanometer
 
-    def nm2pm(self):
-        nanometer = self.nanometer * 1000
-        return nanometer
+    def nm2pm(self,nm):
+        self.nanometer = nm * 1000
+        return self.nanometer
 
-    def nm2miles(self):
-        nanometer = self.nanometer * (6.21371192 / (10 ** 13))
-        return nanometer
+    def nm2miles(self,nm):
+        self.nanometer = nm * (6.21371192 / (10 ** 13))
+        return self.nanometer
 
-    def nm2yard(self):
-        nanometer = self.nanometer * (1.0936133 / (10 ** 9))
-        return nanometer
+    def nm2yard(self,nm):
+        self.nanometer = nm * (1.0936133 / (10 ** 9))
+        return self.nanometer
 
-    def nm2foot(self):
-        nanometer = self.nanometer * (3.2808399 / (10 ** 9))
-        return nanometer
+    def nm2foot(self,nm):
+        self.nanometer = nm * (3.2808399 / (10 ** 9))
+        return self.nanometer
 
-    def nm2inches(self):
-        nanometer = self.nanometer * (3.93700787 / (10 ** 8))
-        return nanometer
+    def nm2inches(self,nm):
+        self.nanometer = nm * (3.93700787 / (10 ** 8))
+        return self.nanometer
 
 class picometer:
     picometer = 0
