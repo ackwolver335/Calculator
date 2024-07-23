@@ -551,49 +551,49 @@ class Foot:
 class Inch:
     Inch = 0
 
-    def __init__(self,inch):
-        self.Inch = inch
+    def __init__(self):
+        pass
 
-    def inch2km(self):
-        Inch = self.Inch * (2.54 / (10 ** 5))
-        return Inch
+    def inch2km(self,inch):
+        self.Inch = inch * (2.54 / (10 ** 5))
+        return self.Inch
 
-    def inch2m(self):
-        Inch = self.Inch * 0.0254
-        return Inch
+    def inch2m(self,inch):
+        self.Inch = inch * 0.0254
+        return self.Inch
 
-    def inch2cm(self):
-        Inch = self.Inch * 2.54
-        return Inch
+    def inch2cm(self,inch):
+        self.Inch = inch * 2.54
+        return self.Inch
 
-    def inch2dm(self):
-        Inch = self.Inch * 0.254
-        return Inch
+    def inch2dm(self,inch):
+        self.Inch = inch * 0.254
+        return self.Inch
 
-    def inch2mm(self):
-        Inch = self.Inch * 25.4
-        return Inch
+    def inch2mm(self,inch):
+        self.Inch = inch * 25.4
+        return self.Inch
 
-    def inch2um(self):
-        Inch = self.Inch * 25400
-        return Inch
+    def inch2um(self,inch):
+        self.Inch = inch * 25400
+        return self.Inch
 
-    def inch2nm(self):
-        Inch = self.Inch * (254 * (10 ** 5))
-        return Inch
+    def inch2nm(self,inch):
+        self.Inch = inch * (254 * (10 ** 5))
+        return self.Inch
 
-    def inch2pm(self):
-        Inch = self.Inch * (254 * (10 ** 10))
-        return Inch
+    def inch2pm(self,inch):
+        self.Inch = inch * (254 * (10 ** 10))
+        return self.Inch
 
-    def inch2yard(self):
-        Inch = self.Inch * 0.027
-        return Inch
+    def inch2yard(self,inch):
+        self.Inch = inch * 0.027
+        return self.Inch
 
-    def inch2mile(self):
-        Inch = self.Inch * (1.57828283 * (10 ** 5))
-        return Inch
+    def inch2mile(self,inch):
+        self.Inch = inch * (1.57828283 * (10 ** 5))
+        return self.Inch
 
-    def inch2foot(self):
-        Inch = self.Inch * 0.083
-        return Inch
+    def inch2foot(self,inch):
+        self.Inch = inch * 0.083
+        return self.Inch
