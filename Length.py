@@ -401,52 +401,52 @@ class picometer:
 class mile:
     mile = 0
 
-    def __init__(self,ml):
-        self.mile = ml
+    def __init__(self):
+        pass
 
-    def mile2km(self):
-        mile = self.mile * 1.609344
-        return mile
+    def mile2km(self,ml):
+        self.mile = ml * 1.609344
+        return self.mile
 
-    def mile2m(self):
-        mile = self.mile * 1609
-        return mile
+    def mile2m(self,ml):
+        self.mile = ml * 1609
+        return self.mile
 
-    def mile2cm(self):
-        mile = self.mile * 160934
-        return mile
+    def mile2cm(self,ml):
+        self.mile = ml * 160934
+        return self.mile
     
-    def mile2dm(self):
-        mile = self.mile * 16093
-        return mile
+    def mile2dm(self,ml):
+        self.mile = ml * 16093
+        return self.mile
 
-    def mile2mm(self):
-        mile = self.mile * 1609344
-        return mile
+    def mile2mm(self,ml):
+        self.mile = ml * 1609344
+        return self.mile
 
-    def mile2um(self):
-        mile = self.mile * (1609344 * (10 ** 9))
-        return mile
+    def mile2um(self,ml):
+        self.mile = ml * (1609344 * (10 ** 9))
+        return self.mile
 
-    def mile2nm(self):
-        mile = self.mile * (1609344 * (10 ** 12))
-        return mile
+    def mile2nm(self,ml):
+        self.mile = ml * (1609344 * (10 ** 12))
+        return self.mile
     
-    def mile2pm(self):
-        mile = self.mile * (1609344 * (10 ** 15))
-        return mile
+    def mile2pm(self,ml):
+        self.mile = ml * (1609344 * (10 ** 15))
+        return self.mile
 
-    def mile2yard(self):
-        mile = self.mile * 1760
-        return mile
+    def mile2yard(self,ml):
+        self.mile = ml * 1760
+        return self.mile
     
-    def mile2foot(self):
-        mile = self.mile * 5280
-        return mile
+    def mile2foot(self,ml):
+        self.mile = ml * 5280
+        return self.mile
     
-    def mile2inche(self):
-        mile = self.mile * 63360
-        return mile
+    def mile2inche(self,ml):
+        self.mile = ml * 63360
+        return self.mile
 
 class yard:
     yard = 0
