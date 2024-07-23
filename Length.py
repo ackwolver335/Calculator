@@ -155,52 +155,52 @@ class decimeter:
 class centimeter:
     centimeter = 0
 
-    def __init__(self,cm):
-        self.centimeter = cm
+    def __init__(self):
+        pass
 
-    def cm2km(self):
-        centimeter = self.centimeter / (10 ** 5)
-        return centimeter
+    def cm2km(self,cm):
+        self.centimeter = cm / (10 ** 5)
+        return self.centimeter
 
-    def cm2m(self):
-        centimeter = self.centimeter / 100
-        return centimeter
+    def cm2m(self,cm):
+        self.centimeter = cm / 100
+        return self.centimeter
     
-    def cm2dm(self):
-        centimeter = self.centimeter / 10
-        return centimeter
+    def cm2dm(self,cm):
+        self.centimeter = cm / 10
+        return self.centimeter
 
-    def cm2mm(self):
-        centimeter = self.centimeter * 10
-        return centimeter
+    def cm2mm(self,cm):
+        self.centimeter = cm * 10
+        return self.centimeter
 
-    def cm2um(self):
-        centimeter = self.centimeter * (10 ** 4)
-        return centimeter
+    def cm2um(self,cm):
+        self.centimeter = cm * (10 ** 4)
+        return self.centimeter
 
-    def cm2nm(self):
-        centimeter = self.centimeter * (10 ** 7)
-        return centimeter
+    def cm2nm(self,cm):
+        self.centimeter = cm * (10 ** 7)
+        return self.centimeter
 
-    def cm2pm(self):
-        centimeter = self.centimeter * (10 ** 10)
-        return centimeter
+    def cm2pm(self,cm):
+        self.centimeter = cm * (10 ** 10)
+        return self.centimeter
 
-    def cm2miles(self):
-        centimeter = self.centimeter * (6.21371192 / (10 ** 6))
-        return centimeter
+    def cm2miles(self,cm):
+        self.centimeter = cm * (6.21371192 / (10 ** 6))
+        return self.centimeter
 
-    def cm2yard(self):
-        centimeter = self.centimeter * 0.01093
-        return centimeter
+    def cm2yard(self,cm):
+        self.centimeter = cm * 0.01093
+        return self.centimeter
 
-    def cm2foot(self):
-        centimeter = self.centimeter * 0.03280
-        return centimeter
+    def cm2foot(self,cm):
+        self.centimeter = cm * 0.03280
+        return self.centimeter
 
-    def cm2inches(self):
-        centimeter = self.centimeter * 0.3937
-        return centimeter
+    def cm2inches(self,cm):
+        self.centimeter = cm * 0.3937
+        return self.centimeter
 
 class millimeter:
     millimeter = 0
