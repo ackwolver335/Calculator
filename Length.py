@@ -501,52 +501,52 @@ class yard:
 class Foot:
     Foot = 0
 
-    def __init__(self,ft):
-        self.Foot = ft
+    def __init__(self):
+        pass
 
-    def ft2km(self):
-        Foot = self.Foot * 0.0003
-        return Foot
+    def ft2km(self,ft):
+        self.Foot = ft * 0.0003
+        return self.Foot
 
-    def ft2m(self):
-        Foot = self.Foot * 0.304
-        return Foot
+    def ft2m(self,ft):
+        self.Foot = ft * 0.304
+        return self.Foot
 
-    def ft2cm(self):
-        Foot = self.Foot * 30
-        return Foot
+    def ft2cm(self,ft):
+        self.Foot = ft * 30
+        return self.Foot
     
-    def ft2dm(self):
-        Foot = self.Foot * 3.048
-        return Foot
+    def ft2dm(self,ft):
+        self.Foot = ft * 3.048
+        return self.Foot
 
-    def ft2mm(self):
-        Foot = self.Foot * 304
-        return Foot
+    def ft2mm(self,ft):
+        self.Foot = ft * 304
+        return self.Foot
 
-    def ft2um(self):
-        Foot = self.Foot * 304800
-        return Foot
+    def ft2um(self,ft):
+        self.Foot = ft * 304800
+        return self.Foot
 
-    def ft2nm(self):
-        Foot = self.Foot * (3048 * (10 ** 5))
-        return Foot
+    def ft2nm(self,ft):
+        self.Foot = ft * (3048 * (10 ** 5))
+        return self.Foot
 
-    def ft2pm(self):
-        Foot = self.Foot * (3048 * (10 ** 11))
-        return Foot
+    def ft2pm(self,ft):
+        self.Foot = ft * (3048 * (10 ** 11))
+        return self.Foot
 
-    def ft2mile(self):
-        Foot = self.Foot * 0.00018
-        return Foot
+    def ft2mile(self,ft):
+        self.Foot = ft * 0.00018
+        return self.Foot
 
-    def ft2yard(self):
-        Foot = self.Foot * 0.33
-        return Foot
+    def ft2yard(self,ft):
+        self.Foot = ft * 0.33
+        return self.Foot
 
-    def ft2inches(self):
-        Foot = self.Foot * 12
-        return Foot
+    def ft2inches(self,ft):
+        self.Foot = ft * 12
+        return self.Foot
 
 class Inch:
     Inch = 0
