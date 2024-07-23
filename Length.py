@@ -205,48 +205,48 @@ class centimeter:
 class millimeter:
     millimeter = 0
 
-    def __init__(self,mm):
-        self.millimeter = mm
+    def __init__(self):
+        pass
 
-    def mm2km(self):
-        millimeter = self.millimeter / (10 ** 6)
-        return millimeter
+    def mm2km(self,mm):
+        self.millimeter = mm / (10 ** 6)
+        return self.millimeter
 
-    def mm2m(self):
-        millimeter = self.millimeter / 1000
-        return millimeter
+    def mm2m(self,mm):
+        self.millimeter = mm / 1000
+        return self.millimeter
 
-    def mm2cm(self):
-        millimeter = self.millimeter / 10
-        return millimeter
+    def mm2cm(self,mm):
+        self.millimeter = mm / 10
+        return self.millimeter
 
-    def mm2um(self):
-        millimeter = self.millimeter * 1000
-        return millimeter
+    def mm2um(self,mm):
+        self.millimeter = mm * 1000
+        return self.millimeter
 
-    def mm2nm(self):
-        millimeter = self.millimeter * (10 ** 6)
-        return millimeter
+    def mm2nm(self,mm):
+        self.millimeter = mm * (10 ** 6)
+        return self.millimeter
 
-    def mm2pm(self):
-        millimeter = self.millimeter * (10 ** 9)
-        return millimeter
+    def mm2pm(self,mm):
+        self.millimeter = mm * (10 ** 9)
+        return self.millimeter
 
-    def mm2miles(self):
-        millimeter = self.millimeter * (6.21371192 / (10 ** 7))
-        return millimeter
+    def mm2miles(self,mm):
+        self.millimeter = mm * (6.21371192 / (10 ** 7))
+        return self.millimeter
 
-    def mm2yard(self):
-        millimeter = self.millimeter * 0.00109
-        return millimeter
+    def mm2yard(self,mm):
+        self.millimeter = mm * 0.00109
+        return self.millimeter
 
-    def mm2foot(self):
-        millimeter = self.millimeter * 0.00328
-        return millimeter
+    def mm2foot(self,mm):
+        self.millimeter = mm * 0.00328
+        return self.millimeter
 
-    def mm2inches(self):
-        millimeter = self.millimeter * 0.0393
-        return millimeter
+    def mm2inches(self,mm):
+        self.millimeter = mm * 0.0393
+        return self.millimeter
 
 class micrometer:
     micrometer = 0
