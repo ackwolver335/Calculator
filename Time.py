@@ -5,8 +5,8 @@
 class year:
     year = 0
 
-    def __init__(self,yr):
-        self.year = yr
+    def __init__(self):
+        pass
 
     def yr2month(self):
         year = self.year * 12
@@ -173,43 +173,44 @@ class hour:
 class minute:
     minute = 0
 
-    def __init(self,min):
-        self.minute = min
+    def __init(self):
+        pass
 
-    def min2yr(self):
-        min = self.min / 525600
-        return min
+    def min2yr(self,min):
+        self.minute = min / 525600
+        return self.minute
 
-    def min2month(self):
-        min = self.min / (60 * 24 * (30))
-        return min
+    def min2month(self,min):
+        self.minute = min / (60 * 24 * (30))
+        return self.minute
 
-    def min2wk(self):
-        min = self.min / 10080
-        return min
+    def min2wk(self,min):
+        self.minute = min / 10080
+        return self.minute
 
-    def min2days(self):
-        min = self.min / 1440
-        return min
+    def min2days(self,min):
+        self.minute = min / 1440
+        return self.minute
 
-    def min2h(self):
-        min = self.min / 60
+    def min2h(self,min):
+        self.minute = min / 60
+        return self.minute
 
-    def min2sec(self):
-        min = self.min * 60
-        return min 
+    def min2sec(self,min):
+        self.minute = min * 60
+        return self.minute 
 
-    def min2millsec(self):
-        min = self.min * 60000
-        return min
+    def min2millsec(self,min):
+        self.minute = min * 60000
+        return self.minute
 
-    def min2microsec(self):
-        min = self.min * (60 * (10 ** 6))
-        return min
+    def min2microsec(self,min):
+        self.minute = min * (60 * (10 ** 6))
+        return self.minute
 
-    def min2picosec(self):
-        min = self.min * (60 * (10 ** 11))
-        return min
+    def min2picosec(self,min):
+        self.minute = min * (60 * (10 ** 11))
+        return self.minute
 
 class second:
     second = 0
