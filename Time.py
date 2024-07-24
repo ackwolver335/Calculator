@@ -173,7 +173,7 @@ class hour:
 class minute:
     minute = 0
 
-    def __init(self):
+    def __init__(self):
         pass
 
     def min2yr(self,min):
