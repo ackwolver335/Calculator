@@ -89,44 +89,44 @@ class week:
 class days:
     days = 0
 
-    def __init__(self,dy):
-        self.days = dy
+    def __init__(self):
+        pass
 
-    def dy2yr(self):
-        days = self.days / 365
-        return days
+    def dy2yr(self,dys):
+        self.days = dys / 365
+        return self.days
 
-    def dy2month(self):
-        days = self.days / 30
-        return days
+    def dy2month(self,dys):
+        self.days = dys / 30
+        return self.days
 
-    def dy2wk(self):
-        days = self.days / 7
-        return days
+    def dy2wk(self,dys):
+        self.days = dys / 7
+        return self.days
 
-    def dy2h(self):
-        days = self.days * 24
-        return days
+    def dy2h(self,dys):
+        self.days = dys * 24
+        return self.days
 
-    def dy2min(self):
-        days = self.days * 1440
-        return days
+    def dy2min(self,dys):
+        self.days = dys * 1440
+        return self.days
 
-    def dy2sec(self):
-        days = self.days * 86400
-        return days
+    def dy2sec(self,dys):
+        self.days = dys * 86400
+        return self.days
 
-    def dy2millsec(self):
-        days = self.days * (864 * (10 ** 5))
-        return days
+    def dy2millsec(self,dys):
+        self.days = dys * (864 * (10 ** 5))
+        return self.days
 
-    def dy2microsec(self):
-        days = self.days * (8.64 * (10 ** 10))
-        return days
+    def dy2microsec(self,dys):
+        self.days = dys * (8.64 * (10 ** 10))
+        return self.days
 
-    def dy2picosec(self):
-        days = self.days * (8.64 * (10 ** 16))
-        return days
+    def dy2picosec(self,dys):
+        self.days = dys * (8.64 * (10 ** 16))
+        return self.days
 
 class hour:
     hour = 0
