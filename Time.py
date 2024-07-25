@@ -47,44 +47,44 @@ class year:
 class week:
     week = 0
 
-    def __init__(self,wk):
-        self.week = wk
+    def __init__(self):
+        pass
 
-    def wk2yr(self):
-        week = self.week / 52
-        return week
+    def wk2yr(self,wk):
+        self.week = wk / 52
+        return self.week
 
-    def wk2month(self):
-        week = self.week / 4
-        return week
+    def wk2month(self,wk):
+        self.week = wk / 4
+        return self.week
 
-    def wk2days(self):
-        week = self.week * 7
-        return week
+    def wk2days(self,wk):
+        self.week = wk * 7
+        return self.week
 
-    def wk2h(self):
-        week = self.week * 168
-        return week
+    def wk2h(self,wk):
+        self.week = wk * 168
+        return self.week
 
-    def wk2min(self):
-        week = self.week * 10080
-        return week
+    def wk2min(self,wk):
+        self.week = wk * 10080
+        return self.week
 
-    def wk2sec(self):
-        week = self.week * 604800
-        return week
+    def wk2sec(self,wk):
+        self.week = wk * 604800
+        return self.week
 
-    def wk2millsec(self):
-        week = self.week * (6048 * (10 ** 5))
-        return week
+    def wk2millsec(self,wk):
+        self.week = wk * (6048 * (10 ** 5))
+        return self.week
 
-    def wk2microsec(self):
-        week = self.week * (6.048 * (10 ** 11))
-        return week
+    def wk2microsec(self,wk):
+        self.week = wk * (6.048 * (10 ** 11))
+        return self.week
 
-    def wk2picosec(self):
-        week = self.week * (6.048 * (10 ** 17))
-        return week
+    def wk2picosec(self,wk):
+        self.week = wk * (6.048 * (10 ** 17))
+        return self.week
 
 class days:
     days = 0
