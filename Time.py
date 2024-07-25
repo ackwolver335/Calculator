@@ -213,42 +213,42 @@ class minute:
         return self.minute
 
 class second:
-    second = 0
+    seconds = 0
 
-    def __init__(self,sec):
-        self.second = sec
+    def __init__(self):
+        pass
 
-    def sec2yr(self):
-        sec = self.second / 31536000
-        return sec
+    def sec2yr(self,scds):
+        self.seconds = scds / 31536000
+        return self.seconds
 
-    def sec2wk(self):
-        sec = self.second / 604800
-        return sec
+    def sec2wk(self,scds):
+        self.seconds = scds / 604800
+        return self.seconds
 
-    def sec2days(self):
-        sec = self.second / 86400
-        return sec
+    def sec2days(self,scds):
+        self.seconds = scds / 86400
+        return self.seconds
 
-    def sec2hour(self):
-        sec = self.second / 3600
-        return sec
+    def sec2hour(self,scds):
+        self.seconds = scds / 3600
+        return self.seconds
 
-    def sec2min(self):
-        sec = self.second / 60
-        return sec
+    def sec2min(self,scds):
+        self.seconds = scds / 60
+        return self.seconds
     
-    def sec2millsec(self):
-        sec = self.second * 1000
-        return sec
+    def sec2millsec(self,scds):
+        self.seconds = scds * 1000
+        return self.seconds
 
-    def sec2micorsec(self):
-        sec = self.second * (10 ** 6)
-        return sec
+    def sec2micorsec(self,scds):
+        self.seconds = scds * (10 ** 6)
+        return self.seconds
 
-    def sec2picosec(self):
-        sec = self.second * (10 ** 12)
-        return sec
+    def sec2picosec(self,scds):
+        self.seconds = scds * (10 ** 12)
+        return self.seconds
 
 class millisec:
     millisec = 0
