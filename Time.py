@@ -131,44 +131,44 @@ class days:
 class hour:
     hour = 0
 
-    def __init__ (self,h):
-        self.hour = h
+    def __init__ (self):
+        pass
     
-    def h2yr(self):
-        hour = self.hour / 8760
-        return hour
+    def h2yr(self,hrs):
+        self.hour = hrs / 8760
+        return self.hour
 
-    def h2month(self):
-        hour = self.hour / (24 * 30)
-        return hour
+    def h2month(self,hrs):
+        self.hour = hrs / (24 * 30)
+        return self.hour
 
-    def h2wk(self):
-        hour = self.hour / 168
-        return hour
+    def h2wk(self,hrs):
+        self.hour = hrs / 168
+        return self.hour
 
-    def h2days(self):
-        hour = self.hour / 24
-        return hour
+    def h2days(self,hrs):
+        self.hour = hrs / 24
+        return self.hour
 
-    def h2min(self):
-        hour = self.hour * 60
-        return hour
+    def h2min(self,hrs):
+        self.hour = hrs * 60
+        return self.hour
 
-    def h2sec(self):
-        hour = self.hour * 3600
-        return hour
+    def h2sec(self,hrs):
+        self.hour = hrs * 3600
+        return self.hour
 
-    def h2millsec(self):
-        hour = self.hour * (36 * (10 ** 5))
-        return hour
+    def h2millsec(self,hrs):
+        self.hour = hrs * (36 * (10 ** 5))
+        return self.hour
 
-    def h2microsec(self):
-        hour = self.hour * (3.6 * (10 ** 9))
-        return hour
+    def h2microsec(self,hrs):
+        self.hour = hrs * (3.6 * (10 ** 9))
+        return self.hour
 
-    def h2picosec(self):
-        hour = self.hour * (3.6 * (10 ** 15))
-        return hour
+    def h2picosec(self,hrs):
+        self.hour = hrs * (3.6 * (10 ** 15))
+        return self.hour
 
 class minute:
     minute = 0
