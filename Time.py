@@ -8,41 +8,41 @@ class year:
     def __init__(self):
         pass
 
-    def yr2month(self):
-        year = self.year * 12
-        return year
+    def yr2month(self,yr):
+        self.year = yr * 12
+        return self.year
 
-    def yr2wk(self):
-        year = self.year * 52
-        return year
+    def yr2wk(self,yr):
+        self.year = yr * 52
+        return self.year
 
-    def yr2days(self):
-        year = self.year * 365
-        return year
+    def yr2days(self,yr):
+        self.year = yr * 365
+        return self.year
 
-    def yr2h(self):
-        year = self.year * 8760
-        return year
+    def yr2h(self,yr):
+        self.year = yr * 8760
+        return self.year
 
-    def yr2min(self):
-        year = self.year * 525600
-        return year
+    def yr2min(self,yr):
+        self.year = yr * 525600
+        return self.year
 
-    def yr2sec(self):
-        year = self.year * 31536000
-        return year
+    def yr2sec(self,yr):
+        self.year = yr * 31536000
+        return self.year
 
-    def yr2millsec(self):
-        year = self.year * (3.1536 * (10 ** 10))
-        return year
+    def yr2millsec(self,yr):
+        self.year = yr * (3.1536 * (10 ** 10))
+        return self.year
 
-    def yr2microsec(self):
-        year = self.year * (3.1536 * (10 ** 13))
-        return year
+    def yr2microsec(self,yr):
+        self.year = yr * (3.1536 * (10 ** 13))
+        return self.year
 
-    def yr2picosec(self):
-        year = self.year * (3.1536 * (10 ** 19))
-        return year
+    def yr2picosec(self,yr):
+        self.year = yr * (3.1536 * (10 ** 19))
+        return self.year
 
 class week:
     week = 0
