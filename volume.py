@@ -369,7 +369,7 @@ class decilitre:
         return decltr
 
     def decl2yd3(self):
-        decltr = self.deltr / 7645
+        decltr = self.decltr / 7645
         return decltr
 
     def decl2af3(self):
