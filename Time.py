@@ -291,40 +291,40 @@ class millisec:
 class microsec:
     microsec = 0
 
-    def __init__(self,mcsec):
-        self.microsec = mcsec
+    def __init__(self):
+        pass
 
-    def usec2yr(self):
-        microsec = self.microsec / (3.1536 * (10 ** 13))
-        return microsec
+    def usec2yr(self,mcrsec):
+        self.microsec = mcrsec / (3.1536 * (10 ** 13))
+        return self.microsec
 
-    def usec2wk(self):
-        microsec = self.microsec / (6.048 * (10 ** 11))
-        return microsec
+    def usec2wk(self,mcrsec):
+        self.microsec = mcrsec / (6.048 * (10 ** 11))
+        return self.microsec
 
-    def usec2days(self):
-        microsec = self.microsec / (8.64 * (10 ** 10))
-        return microsec
+    def usec2days(self,mcrsec):
+        self.microsec = mcrsec / (8.64 * (10 ** 10))
+        return self.microsec
 
-    def usec2hr(self):
-        microsec = self.microsec / (3.6 * (10 ** 9))
-        return microsec
+    def usec2hr(self,mcrsec):
+        self.microsec = mcrsec / (3.6 * (10 ** 9))
+        return self.microsec
 
-    def usec2min(self):
-        microsec = self.microsec / (6 * (10 ** 7))
-        return microsec
+    def usec2min(self,mcrsec):
+        self.microsec = mcrsec / (6 * (10 ** 7))
+        return self.microsec
 
-    def usec2sec(self):
-        microsec = self.microsec / (10 ** 6)
-        return microsec
+    def usec2sec(self,mcrsec):
+        self.microsec = mcrsec / (10 ** 6)
+        return self.microsec
 
-    def usec2millisec(self):
-        microsec = self.microsec / 1000
-        return microsec
+    def usec2millisec(self,mcrsec):
+        self.microsec = mcrsec / 1000
+        return self.microsec
 
-    def usec2picosec(self):
-        microsec = self.microsec * (10 ** 6)
-        return microsec
+    def usec2picosec(self,mcrsec):
+        self.microsec = mcrsec * (10 ** 6)
+        return self.microsec
 
 class picosec:
     picosec = 0
