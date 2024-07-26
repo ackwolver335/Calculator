@@ -329,37 +329,37 @@ class microsec:
 class picosec:
     picosec = 0
 
-    def __init__(self,pcsec):
-        self.picosec = pcsec
+    def __init__(self):
+        pass
 
-    def pcsec2yr(self):
-        pcsec = self.picosec / (3.1536 * (10 ** 19))
-        return pcsec
+    def pcsec2yr(self,psec):
+        self.picosec = psec / (3.1536 * (10 ** 19))
+        return self.picosec
     
-    def pcsec2wk(self):
-        pcsec = self.picosec / (6.048 * (10 ** 17))
-        return pcsec
+    def pcsec2wk(self,psec):
+        self.picosec = psec / (6.048 * (10 ** 17))
+        return self.picosec
 
-    def pcsec2day(self):
-        pcsec = self.picosec / (8.64 * (10 ** 16))
-        return pcsec
+    def pcsec2day(self,psec):
+        self.picosec = psec / (8.64 * (10 ** 16))
+        return self.picosec
 
-    def pcsec2hr(self):
-        pcsec = self.picosec / (3.6 * (10 ** 15))
-        return pcsec
+    def pcsec2hr(self,psec):
+        self.picosec = psec / (3.6 * (10 ** 15))
+        return self.picosec
 
-    def pcsec2min(self):
-        pcsec = self.picosec / (6 * (10 ** 13))
-        return pcsec
+    def pcsec2min(self,psec):
+        self.picosec = psec / (6 * (10 ** 13))
+        return self.picosec
     
-    def pcsec2sec(self):
-        pcsec = self.picosec / (10 ** 12)
-        return pcsec
+    def pcsec2sec(self,psec):
+        self.picosec = psec / (10 ** 12)
+        return self.picosec
 
-    def pcsec2millisec(self):
-        pcsec = self.picosec / (10 ** 9)
-        return pcsec
+    def pcsec2millisec(self,psec):
+        self.picosec = psec / (10 ** 9)
+        return self.picosec
 
-    def pcsec2microsec(self):
-        pcsec = self.picosec / (10 ** 6)
-        return pcsec
+    def pcsec2microsec(self,psec):
+        self.picosec = psec / (10 ** 6)
+        return self.picosec
