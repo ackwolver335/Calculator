@@ -253,40 +253,40 @@ class second:
 class millisec:
     millisec = 0
 
-    def __init__(self,milsec):
-        self.millisec = milsec
+    def __init__(self):
+        pass
 
-    def milsec2yr(self):
-        millisec = self.millisec / (3.1536 * (10 ** 10))
-        return millisec
+    def milsec2yr(self,millsec):
+        self.millisec = millsec / (3.1536 * (10 ** 10))
+        return self.millisec
 
-    def milsec2wk(self):
-        millisec = self.millisec / (6048 * (10 ** 5))
-        return millisec
+    def milsec2wk(self,millsec):
+        self.millisec = millsec / (6048 * (10 ** 5))
+        return self.millisec
 
-    def milsec2days(self):
-        millisec = self.millisec / (864 * (10 ** 5))
-        return millisec
+    def milsec2days(self,millsec):
+        self.millisec = millsec / (864 * (10 ** 5))
+        return self.millisec
 
-    def milsec2hr(self):
-        millisec = self.millisec / (36 * (10 ** 5))
-        return millisec
+    def milsec2hr(self,millsec):
+        self.millisec = millsec / (36 * (10 ** 5))
+        return self.millisec
 
-    def milsec2min(self):
-        millisec = self.millisec / 60000
-        return millisec
+    def milsec2min(self,millsec):
+        self.millisec = millsec / 60000
+        return self.millisec
 
-    def milsec2sec(self):
-        millisec = self.millisec / 1000
-        return millisec
+    def milsec2sec(self,millsec):
+        self.millisec = millsec / 1000
+        return self.millisec
 
-    def milsec2microsec(self):
-        millisec = self.millisec * 1000
-        return millisec
+    def milsec2microsec(self,millsec):
+        self.millisec = millsec * 1000
+        return self.millisec
 
-    def milsec2picosec(self):
-        millisec = self.millisec * (10 ** 9)
-        return millisec
+    def milsec2picosec(self,millsec):
+        self.millisec = millsec * (10 ** 9)
+        return self.millisec
 
 class microsec:
     microsec = 0
