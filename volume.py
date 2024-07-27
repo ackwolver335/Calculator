@@ -433,56 +433,56 @@ class centiltr:
 class milliltr:
     mlltr = 0
 
-    def __init__(self,milliltr):
-        self.mlltr = milliltr
+    def __init__(self):
+        pass
 
-    def ml2m3(self):
-        mlltr = self.mlltr / (10 ** 6)
-        return mlltr
+    def ml2m3(self,mltr):
+        self.mlltr = mltr / (10 ** 6)
+        return self.mlltr
     
-    def ml2dm3(self):
-        mlltr = self.mlltr / 1000
-        return mlltr
+    def ml2dm3(self,mltr):
+        self.mlltr = mltr / 1000
+        return self.mlltr
 
-    def ml2cm3(self):
-        mlltr = self.mlltr * 1
-        return mlltr
+    def ml2cm3(self,mltr):
+        self.mlltr = mltr * 1
+        return self.mlltr
 
-    def ml2mm3(self):
-        mlltr = self.mlltr * 1000
-        return mlltr
+    def ml2mm3(self,mltr):
+        self.mlltr = mltr * 1000
+        return self.mlltr
 
-    def ml2hl(self):
-        mlltr = self.mlltr / (10 ** 5)
-        return mlltr
+    def ml2hl(self,mltr):
+        self.mlltr = mltr / (10 ** 5)
+        return self.mlltr
 
-    def ml2l(self):
-        mlltr = self.mlltr / 1000
-        return mlltr
+    def ml2l(self,mltr):
+        self.mlltr = mltr / 1000
+        return self.mlltr
 
-    def ml2cl(self):
-        mlltr = self.mlltr / 10
-        return mlltr
+    def ml2cl(self,mltr):
+        self.mlltr = mltr / 10
+        return self.mlltr
 
-    def ml2dl(self):
-        mlltr = self.mlltr / 100
-        return mlltr
+    def ml2dl(self,mltr):
+        self.mlltr = mltr / 100
+        return self.mlltr
 
-    def ml2ft3(self):
-        mlltr = self.mlltr / 28316
-        return mlltr
+    def ml2ft3(self,mltr):
+        self.mlltr = mltr / 28316
+        return self.mlltr
 
-    def ml2inch3(self):
-        mlltr = self.mlltr / 16
-        return mlltr
+    def ml2inch3(self,mltr):
+        self.mlltr = mltr / 16
+        return self.mlltr
     
-    def ml2yd3(self):
-        mlltr = self.mlltr / 765554
-        return mlltr
+    def ml2yd3(self,mltr):
+        self.mlltr = mltr / 765554
+        return self.mlltr
 
-    def ml2af3(self):
-        mlltr = self.mlltr / (1234 * (10 ** 9))
-        return mlltr
+    def ml2af3(self,mltr):
+        self.mlltr = mltr / (1234 * (10 ** 9))
+        return self.mlltr
     
 class footcub:
     ftcub = 0
