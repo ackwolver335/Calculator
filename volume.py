@@ -487,56 +487,56 @@ class milliltr:
 class footcub:
     ftcub = 0
 
-    def __init__(self,ft3):
-        self.ftcub = ft3
+    def __init__(self):
+        pass
 
-    def ftcub2m3(self):
-        ftcub = self.ftcub / 35
-        return ftcub
+    def ftcub2m3(self,ft3):
+        self.ftcub = ft3 / 35
+        return self.ftcub
 
-    def ftcub2dm3(self):
-        ftcub = self.ftcub * 28
-        return ftcub
+    def ftcub2dm3(self,ft3):
+        self.ftcub = ft3 * 28
+        return self.ftcub
 
-    def ftcub2cm3(self):
-        ftcub = self.ftcub * 28316
-        return ftcub
+    def ftcub2cm3(self,ft3):
+        self.ftcub = ft3 * 28316
+        return self.ftcub
 
-    def ftcub2mm3(self):
-        ftcub = self.ftcub * 28316846
-        return ftcub
+    def ftcub2mm3(self,ft3):
+        self.ftcub = ft3 * 28316846
+        return self.ftcub
     
-    def ftcub2hl(self):
-        ftcub = self.ftcub / 3.5
-        return ftcub
+    def ftcub2hl(self,ft3):
+        self.ftcub = ft3 / 3.5
+        return self.ftcub
 
-    def ftcub2l(self):
-        ftcub = self.ftcub * 28
-        return ftcub
+    def ftcub2l(self,ft3):
+        self.ftcub = ft3 * 28
+        return self.ftcub
 
-    def ftcub2dl(self):
-        ftcub = self.ftcub * 283
-        return ftcub
+    def ftcub2dl(self,ft3):
+        self.ftcub = ft3 * 283
+        return self.ftcub
 
-    def ftcub2cl(self):
-        ftcub = self.ftcub * 2831
-        return ftcub
+    def ftcub2cl(self,ft3):
+        self.ftcub = ft3 * 2831
+        return self.ftcub
     
-    def ftcub2ml(self):
-        ftcub = self.ftcub * 28316
-        return ftcub
+    def ftcub2ml(self,ft3):
+        self.ftcub = ft3 * 28316
+        return self.ftcub
     
-    def ftcub2inch3(self):
-        ftcub = self.ftcub * 1728
-        return ftcub
+    def ftcub2inch3(self,ft3):
+        self.ftcub = ft3 * 1728
+        return self.ftcub
 
-    def ftcub2yd3(self):
-        ftcub = self.ftcub / 27
-        return ftcub
+    def ftcub2yd3(self,ft3):
+        self.ftcub = ft3 / 27
+        return self.ftcub
 
-    def ftcub2af3(self):
-        ftcub = self.ftcub / 43578
-        return ftcub
+    def ftcub2af3(self,ft3):
+        self.ftcub = ft3 / 43578
+        return self.ftcub
     
 class inchcub:
     ihcub = 0
