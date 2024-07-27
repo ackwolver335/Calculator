@@ -379,56 +379,56 @@ class decilitre:
 class centiltr:
     cntlt = 0
 
-    def __init__(self,ctlt):
-        self.cntlt = ctlt
+    def __init__(self):
+        pass
     
-    def cntlt2m3(self):
-        cntlt = self.cntlt / (10 ** 5)
-        return cntlt
+    def cntlt2m3(self,cltr):
+        self.cntlt = cltr / (10 ** 5)
+        return self.cntlt
 
-    def cntlt2dm3(self):
-        cntlt = self.cntlt / 100
-        return cntlt
+    def cntlt2dm3(self,cltr):
+        self.cntlt = cltr / 100
+        return self.cntlt
 
-    def cntlt2cm3(self):
-        cntlt = self.cntlt * 10
-        return cntlt
+    def cntlt2cm3(self,cltr):
+        self.cntlt = cltr * 10
+        return self.cntlt
 
-    def cntlt2mm3(self):
-        cntlt = self.cntlt * (10 ** 4)
-        return cntlt
+    def cntlt2mm3(self,cltr):
+        self.cntlt = cltr * (10 ** 4)
+        return self.cntlt
 
-    def cntlt2hl(self):
-        cntlt = self.cntlt / (10 ** 4)
-        return cntlt
+    def cntlt2hl(self,cltr):
+        self.cntlt = cltr / (10 ** 4)
+        return self.cntlt
 
-    def cntlt2l(self):
-        cntlt = self.cntlt / 100
-        return cntlt
+    def cntlt2l(self,cltr):
+        self.cntlt = cltr / 100
+        return self.cntlt
 
-    def cntlt2dl(self):
-        cntlt = self.cntlt / 10
-        return cntlt
+    def cntlt2dl(self,cltr):
+        self.cntlt = cltr / 10
+        return self.cntlt
 
-    def cntlt2ml(self):
-        cntlt = self.cntlt * 10
-        return cntlt
+    def cntlt2ml(self,cltr):
+        self.cntlt = cltr * 10
+        return self.cntlt
     
-    def cntlt2ft3(self):
-        cntlt = self.cntlt / 2831
-        return cntlt
+    def cntlt2ft3(self,cltr):
+        self.cntlt = cltr / 2831
+        return self.cntlt
     
-    def cntlt2inch3(self):
-        cntlt = self.cntlt / 1.6
-        return cntlt
+    def cntlt2inch3(self,cltr):
+        self.cntlt = cltr / 1.6
+        return self.cntlt
     
-    def cntlt2yd3(self):
-        cntlt = self.cntlt / 76455
-        return cntlt
+    def cntlt2yd3(self,cltr):
+        self.cntlt = cltr / 76455
+        return self.cntlt
 
-    def cntlt2af3(self):
-        cntlt = self.cntlt / (1234 * (10 ** 4))
-        return cntlt
+    def cntlt2af3(self,cltr):
+        self.cntlt = cltr / (1234 * (10 ** 4))
+        return self.cntlt
 
 class milliltr:
     mlltr = 0
