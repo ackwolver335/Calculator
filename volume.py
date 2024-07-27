@@ -649,53 +649,53 @@ class yardcub:
 class areafoot3:
     aftcub = 0
 
-    def __init__(self,af3):
-        self.aftcub = af3
+    def __init__(self):
+        pass
 
-    def aftcub2m3(self):
-        aftcub = self.aftcub * 1234
-        return aftcub
+    def aftcub2m3(self,af3):
+        self.aftcub = af3 * 1234
+        return self.aftcub
 
-    def aftcub2dm3(self):
-        aftcub = self.aftcub * 1234000
-        return aftcub
+    def aftcub2dm3(self,af3):
+        self.aftcub = af3 * 1234000
+        return self.aftcub
 
-    def aftcub2cm3(self):
-        aftcub = self.aftcub * (1.234 * (10 ** 9))
-        return aftcub
+    def aftcub2cm3(self,af3):
+        self.aftcub = af3 * (1.234 * (10 ** 9))
+        return self.aftcub
 
-    def aftcub2mm3(self):
-        aftcub = self.aftcub * (1.234 * (10 ** 12))
-        return aftcub
+    def aftcub2mm3(self,af3):
+        self.aftcub = af3 * (1.234 * (10 ** 12))
+        return self.aftcub
 
-    def aftcub2hl(self):
-        aftcub = self.aftcub * 12340
-        return aftcub
+    def aftcub2hl(self,af3):
+        self.aftcub = af3 * 12340
+        return self.aftcub
 
-    def aftcub2l(self):
-        aftcub = self.aftcub * 1234000
-        return aftcub
+    def aftcub2l(self,af3):
+        self.aftcub = af3 * 1234000
+        return self.aftcub
 
-    def aftcub2dl(self):
-        aftcub = self.aftcub * (1234 * (10 ** 4))
-        return aftcub
+    def aftcub2dl(self,af3):
+        self.aftcub = af3 * (1234 * (10 ** 4))
+        return self.aftcub
 
-    def aftcub2cl(self):
-        aftcub = self.aftcub * (1234 * (10 ** 5))
-        return aftcub
+    def aftcub2cl(self,af3):
+        self.aftcub = af3 * (1234 * (10 ** 5))
+        return self.aftcub
 
-    def aftcub2ml(self):
-        aftcub = self.aftcub * (1.234 * (10 ** 9))
-        return aftcub
+    def aftcub2ml(self,af3):
+        self.aftcub = af3 * (1.234 * (10 ** 9))
+        return self.aftcub
 
-    def aftcub2ft3(self):
-        aftcub = self.aftcub * 43578
-        return aftcub
+    def aftcub2ft3(self,af3):
+        self.aftcub = af3 * 43578
+        return self.aftcub
 
-    def aftcub2inch3(self):
-        aftcub = self.aftcub * 75303300
-        return aftcub
+    def aftcub2inch3(self,af3):
+        self.aftcub = af3 * 75303300
+        return self.aftcub
 
-    def aftcub2yd3(self):
-        aftcub = self.aftcub * 1614
-        return aftcub
+    def aftcub2yd3(self,af3):
+        self.aftcub = af3 * 1614
+        return self.aftcub
