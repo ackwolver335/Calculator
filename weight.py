@@ -10,52 +10,52 @@
 class kilogram:
     kilogram = None
 
-    def __init__(self,kg):
-        self.kilogram = kg
+    def __init__(self):
+        pass
 
-    def kg2g(self):                        
-        gram = self.kilogram * 1000
+    def kg2g(self,kg):                        
+        gram = kg * 1000
         return gram
 
-    def kg2milligm(self):                  
-        milligm = self.kilogram * (10 ** 6)
-        return milligm
+    def kg2milligm(self,kg):                  
+        self.kilogram = kg * (10 ** 6)
+        return self.kilogram
 
-    def kg2microgm(self):                  
-        microgm = self.kilogram * (10 ** 9)
-        return microgm
+    def kg2microgm(self,kg):                  
+        self.kilogram = kg * (10 ** 9)
+        return self.kilogram
 
-    def kg2tonne(self):                    
-        tonne = self.kilogram / 1000
-        return tonne
+    def kg2tonne(self,kg):                    
+        self.kilogram = kg / 1000
+        return self.kilogram
 
-    def kg2quintal(self):                  
-        quintal = self.kilogram / 100
-        return quintal
+    def kg2quintal(self,kg):                  
+        self.kilogram = kg / 100
+        return self.kilogram
 
-    def kg2pound(self):                    
-        pound = self.kilogram * 2.2
-        return pound
+    def kg2pound(self,kg):                    
+        self.kilogram = kg * 2.2
+        return self.kilogram
 
-    def kg2ounce(self):                    
-        ounce = self.kilogram * 35.2
-        return ounce
+    def kg2ounce(self,kg):                    
+        self.kilogram = kg * 35.2
+        return self.kilogram
 
-    def kg2carat(self):                    
-        carat = self.kilogram * 5000
-        return carat
+    def kg2carat(self,kg):                    
+        self.kilogram = kg * 5000
+        return self.kilogram
 
-    def kg2grain(self):                    
-        grain = self.kilogram * 15432
-        return grain
+    def kg2grain(self,kg):                    
+        self.kilogram = kg * 15432
+        return self.kilogram
 
-    def kg2st(self):                       
-        stone = self.kilogram * 0.15
-        return stone
+    def kg2st(self,kg):                       
+        self.kilogram = kg * 0.15
+        return self.kilogram
 
-    def kg2dr(self):                       
-        dram = self.kilogram * 564
-        return dram
+    def kg2dr(self,kg):                       
+        self.kilogram = kg * 564
+        return self.kilogram
 
 # Here I have created a gram class similar to that of kilogram'e one
 
@@ -145,8 +145,8 @@ class tonne:
         ounce = self.tonne * 35273
         return ounce
 
-    def tonne_to_carat(tonne):
-        carat = tonne * (5 * (10 ** 6))
+    def tonne_to_carat(self):
+        carat = self.tonne * (5 * (10 ** 6))
         return carat
 
     def tonne2grain(self):
@@ -618,5 +618,5 @@ class dram:
         return dram
     
     def dr2stone(self):
-        dram = self.stone * 0.00027
+        dram = self.dram * 0.00027
         return dram
