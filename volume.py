@@ -217,56 +217,56 @@ class millimtr3:
 class hectltr:
     hectltr = 0
 
-    def __init__(self,hltr):
-        self.hectltr = hltr
+    def __init__(self):
+        pass
 
-    def hltr2m3(self):
-        hectltr = self.hectltr / 10
-        return hectltr
+    def hltr2m3(self,hctl):
+        self.hectltr = hctl / 10
+        return self.hectltr
 
-    def hltr2dm3(self):
-        hectltr = self.hectltr * 100
-        return hectltr
+    def hltr2dm3(self,hctl):
+        self.hectltr = hctl * 100
+        return self.hectltr
     
-    def hltr2cm3(self):
-        hectltr = self.hectltr * (10 ** 5)
-        return hectltr
+    def hltr2cm3(self,hctl):
+        self.hectltr = hctl * (10 ** 5)
+        return self.hectltr
 
-    def hltr2mm3(self):
-        hectltr = self.hectltr * (10 ** 8)
-        return hectltr
+    def hltr2mm3(self,hctl):
+        self.hectltr = hctl * (10 ** 8)
+        return self.hectltr
 
-    def hltr2l(self):
-        hectltr = self.hectltr * 100
-        return hectltr
+    def hltr2l(self,hctl):
+        self.hectltr = hctl * 100
+        return self.hectltr
 
-    def hltr2dl(self):
-        hectltr = self.hectltr * 1000
-        return hectltr
+    def hltr2dl(self,hctl):
+        self.hectltr = hctl * 1000
+        return self.hectltr
 
-    def hltr2cl(self):
-        hectltr = self.hectltr * (10 ** 4)
-        return hectltr 
+    def hltr2cl(self,hctl):
+        self.hectltr = hctl * (10 ** 4)
+        return  self.hectltr 
 
-    def hltr2ml(self):
-        hectltr = self.hectltr * (10 ** 5)
-        return hectltr
+    def hltr2ml(self,hctl):
+        self.hectltr = hctl * (10 ** 5)
+        return self.hectltr
 
-    def hltr2ft3(self):
-        hectltr = self.hectltr * 3.5
-        return hectltr
+    def hltr2ft3(self,hctl):
+        self.hectltr = hctl * 3.5
+        return self.hectltr
 
-    def hltr2inch3(self):
-        hectltr = self.hectltr * 6102
-        return hectltr
+    def hltr2inch3(self,hctl):
+        self.hectltr = hctl * 6102
+        return self.hectltr
 
-    def hltr2yd3(self):
-        hectltr = self.hectltr / 7
-        return hectltr
+    def hltr2yd3(self,hctl):
+        self.hectltr = hctl / 7
+        return self.hectltr
 
-    def hltr2af3(self):
-        hectltr = self.hectltr / 12340
-        return hectltr
+    def hltr2af3(self,hctl):
+        self.hectltr = hctl / 12340
+        return self.hectltr
 
 class ltr:
     litre = 0
