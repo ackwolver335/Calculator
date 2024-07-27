@@ -55,56 +55,56 @@ class metre3:
 class decimtr3:
     decimtr3 = 0
 
-    def __init__(self,decimeter3):
-        self.decimtr3 = decimeter3
+    def __init__(self,dcm3):
+        pass
 
-    def decimcub2mtr3(self):
-        decimtr3 = self.decimtr3 / 1000
-        return decimtr3
+    def decimcub2mtr3(self,dcm3):
+        self.decimtr3 = dcm3 / 1000
+        return self.decimtr3
 
-    def decimcub2cm3(self):
-        decimtr3 = self.decimtr3 * 1000
-        return decimtr3
+    def decimcub2cm3(self,dcm3):
+        self.decimtr3 = dcm3 * 1000
+        return self.decimtr3
 
-    def decimcub2mm3(self):
-        decimtr3 = self.decimtr3 * (10 ** 6)
-        return decimtr3
+    def decimcub2mm3(self,dcm3):
+        self.decimtr3 = dcm3 * (10 ** 6)
+        return self.decimtr3
 
-    def decimcub2hl(self):
-        decimtr3 = self.decimtr3 / 100
-        return decimtr3
+    def decimcub2hl(self,dcm3):
+        self.decimtr3 = dcm3 / 100
+        return self.decimtr3
 
-    def decimcub2l(self):
-        decimtr3 = self.decimtr3 * 1
-        return decimtr3
+    def decimcub2l(self,dcm3):
+        self.decimtr3 = dcm3 * 1
+        return self.decimtr3
 
-    def decimcub2dl(self):
-        decimtr3 = self.decimtr3 * 10
-        return decimtr3
+    def decimcub2dl(self,dcm3):
+        self.decimtr3 = dcm3 * 10
+        return self.decimtr3
 
-    def decimcub2cl(self):
-        decimtr3 = self.decimtr3 * 100
-        return decimtr3
+    def decimcub2cl(self,dcm3):
+        self.decimtr3 = dcm3 * 100
+        return self.decimtr3
 
-    def decimcub2ml(self):
-        decimtr3 = self.decimtr3 * 1000
-        return decimtr3
+    def decimcub2ml(self,dcm3):
+        self.decimtr3 = dcm3 * 1000
+        return self.decimtr3
 
-    def decimcub2ft3(self):
-        decimtr3 = self.decimtr3 / 28
-        return decimtr3
+    def decimcub2ft3(self,dcm3):
+        self.decimtr3 = dcm3 / 28
+        return self.decimtr3
 
-    def decimcub2inch3(self):
-        decimtr3 = self.decimtr3 * 61
-        return decimtr3
+    def decimcub2inch3(self,dcm3):
+        self.decimtr3 = dcm3 * 61
+        return self.decimtr3
 
-    def decimcub2yd3(self):
-        decimtr3 = self.decimtr3 / 764
-        return decimtr3
+    def decimcub2yd3(self,dcm3):
+        self.decimtr3 = dcm3 / 764
+        return self.decimtr3
 
-    def decimcub2af3(self):
-        decimtr3 = self.decimtr3 / 1234000
-        return decimtr3
+    def decimcub2af3(self,dcm3):
+        self.decimtr3 = dcm3 / 1234000
+        return self.decimtr3
 
 class centimtr3:
     centimtr3 = 0
