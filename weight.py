@@ -62,52 +62,52 @@ class kilogram:
 class gram:
     gram = 0
 
-    def __init__(self,g):
-        self.gram = g
+    def __init__(self):
+        pass
 
-    def g2tonne(self):                      
-        tonne = self.gram / (10 ** 6)
+    def g2tonne(self,grm):                      
+        tonne = grm / (10 ** 6)
         return tonne
 
-    def g2kg(self):                         
-        kg = self.gram / 1000
-        return kg
+    def g2kg(self,grm):                         
+        self.gram = grm / 1000
+        return self.gram
 
-    def g2mg(self):                         
-        mg = self.gram * 1000
-        return mg
+    def g2mg(self,grm):                         
+        self.gram = grm * 1000
+        return self.gram
 
-    def g2microg(self):                     
-        microgm = self.gram * (10 ** 6)
-        return microgm
+    def g2microg(self,grm):                     
+        self.gram = grm * (10 ** 6)
+        return self.gram
 
-    def g2quintal(self):                    
-        quintal = self.gram / (10 ** 5)
-        return quintal
+    def g2quintal(self,grm):                    
+        self.gram = grm / (10 ** 5)
+        return self.gram
 
-    def g2pound(self):                      
-        pound = self.gram * 0.0022
-        return pound
+    def g2pound(self,grm):                      
+        self.gram = grm * 0.0022
+        return self.gram
 
-    def g2ounce(self):                      
-        ounce = self.gram * 0.035
-        return ounce
+    def g2ounce(self,grm):                      
+        self.gram = grm * 0.035
+        return self.gram
 
-    def g2carat(self):                      
-        carat = self.gram * 5
-        return carat
+    def g2carat(self,grm):                      
+        self.gram = grm * 5
+        return self.gram
 
-    def g2grain(self):                      
-        grain = self.gram * 15.4
-        return grain
+    def g2grain(self,grm):                      
+        self.gram = grm * 15.4
+        return self.gram
 
-    def g2stone(self):                      
-        stone = self.gram * 0.00015
-        return stone
+    def g2stone(self,grm):                      
+        self.gram = grm * 0.00015
+        return self.gram
 
-    def g2dram(self):                       
-        dram = self.gram * 0.5643
-        return dram
+    def g2dram(self,grm):                       
+        self.gram = grm * 0.5643
+        return self.gram
 
 # Here are the tonne conversion functions containing classes
 
