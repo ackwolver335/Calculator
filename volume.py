@@ -595,56 +595,56 @@ class inchcub:
 class yardcub:
     ydcub = 0
     
-    def __init(self,yd3):
-        self.ydcub = yd3
+    def __init__(self):
+        pass
 
-    def ydcub2m3(self):
-        ydcub = self.ydcub / 1.3
-        return ydcub
+    def ydcub2m3(self,yd):
+        self.ydcub = yd / 1.3
+        return self.ydcub
 
-    def ydcub2dm3(self):
-        ydcub = self.ydcub * 764
-        return ydcub
+    def ydcub2dm3(self,yd):
+        self.ydcub = yd * 764
+        return self.ydcub
 
-    def ydcub2cm3(self):
-        ydcub = self.ydcub * 764554
-        return ydcub
+    def ydcub2cm3(self,yd):
+        self.ydcub = yd * 764554
+        return self.ydcub
 
-    def ydcub2mm3(self):
-        ydcub = self.ydcub * 764554858
-        return ydcub
+    def ydcub2mm3(self,yd):
+        self.ydcub = yd * 764554858
+        return self.ydcub
 
-    def ydcub2hl(self):
-        ydcub = self.ydcub * 7.6
-        return ydcub
+    def ydcub2hl(self,yd):
+        self.ydcub = yd * 7.6
+        return self.ydcub
 
-    def ydcub2l(self):
-        ydcub = self.ydcub * 764
-        return ydcub
+    def ydcub2l(self,yd):
+        self.ydcub = yd * 764
+        return self.ydcub
 
-    def ydcub2dl(self):
-        ydcub = self.ydcub * 7645
-        return ydcub
+    def ydcub2dl(self,yd):
+        self.ydcub = yd * 7645
+        return self.ydcub
 
-    def ydcub2cl(self):
-        ydcub = self.ydcub * 76455
-        return ydcub
+    def ydcub2cl(self,yd):
+        self.ydcub = yd * 76455
+        return self.ydcub
 
-    def ydcub2ml(self):
-        ydcub = self.ydcub * 764554
-        return ydcub
+    def ydcub2ml(self,yd):
+        self.ydcub = yd * 764554
+        return self.ydcub
 
-    def ydcub2ft3(self):
-        ydcub = self.ydcub * 27
-        return ydcub
+    def ydcub2ft3(self,yd):
+        self.ydcub = yd * 27
+        return self.ydcub
 
-    def ydcub2inch3(self):
-        ydcub = self.ydcub * 46656
-        return ydcub
+    def ydcub2inch3(self,yd):
+        self.ydcub = yd * 46656
+        return self.ydcub
 
-    def ydcub2af3(self):
-        ydcub = self.ydcub / 1614
-        return ydcub
+    def ydcub2af3(self,yd):
+        self.ydcub = yd / 1614
+        return self.ydcub
 
 class areafoot3:
     aftcub = 0
