@@ -109,56 +109,56 @@ class decimtr3:
 class centimtr3:
     centimtr3 = 0
 
-    def __init__(self,cm3):
-        self.centimtr3 = cm3
+    def __init__(self):
+        pass
 
-    def cmcub2m3(self):
-        centimtr3 = self.centimtr3 / (10 ** 6)
-        return centimtr3
+    def cmcub2m3(self,cm3):
+        self.centimtr3 = cm3 / (10 ** 6)
+        return self.centimtr3
 
-    def cmcub2dm3(self):
-        centimtr3 = self.centimtr3 / 1000
-        return centimtr3
+    def cmcub2dm3(self,cm3):
+        self.centimtr3 = cm3 / 1000
+        return self.centimtr3
 
-    def cmcub2mm3(self):
-        centimtr3 = self.centimtr3 * 1000
-        return centimtr3
+    def cmcub2mm3(self,cm3):
+        self.centimtr3 = cm3 * 1000
+        return self.centimtr3
 
-    def cmcub2hl(self):
-        centimtr3 = self.centimtr3 / (10 ** 5)
-        return centimtr3
+    def cmcub2hl(self,cm3):
+        self.centimtr3 = cm3 / (10 ** 5)
+        return self.centimtr3
 
-    def cmcub2l(self):
-        centimtr3 = self.centimtr3 / 1000
-        return centimtr3
+    def cmcub2l(self,cm3):
+        self.centimtr3 = cm3 / 1000
+        return self.centimtr3
 
-    def cmcub2dl(self):
-        centimtr3 = self.centimtr3 / 100
-        return centimtr3
+    def cmcub2dl(self,cm3):
+        self.centimtr3 = cm3 / 100
+        return self.centimtr3
 
-    def cmcub2cl(self):
-        centimtr3 = self.centimtr3 / 10
-        return centimtr3
+    def cmcub2cl(self,cm3):
+        self.centimtr3 = cm3 / 10
+        return self.centimtr3
 
-    def cmcub2ml(self):
-        centimtr3 = self.centimtr3 * 1
-        return centimtr3
+    def cmcub2ml(self,cm3):
+        self.centimtr3 = cm3 * 1
+        return self.centimtr3
 
-    def cmcub2ft3(self):
-        centimtr3 = self.centimtr3 / 28316
-        return centimtr3
+    def cmcub2ft3(self,cm3):
+        self.centimtr3 = cm3 / 28316
+        return self.centimtr3
 
-    def cmcub2inch3(self):
-        centimtr3 = self.centimtr3 / 16
-        return centimtr3
+    def cmcub2inch3(self,cm3):
+        self.centimtr3 = cm3 / 16
+        return self.centimtr3
 
-    def cmcub2yd3(self):
-        centimtr3 = self.centimtr3 / 764554
-        return centimtr3
+    def cmcub2yd3(self,cm3):
+        self.centimtr3 = cm3 / 764554
+        return self.centimtr3
 
-    def cmcub2af3(self):
-        centimtr3 = self.centimtr3 / (1.234 * (10 ** 9))
-        return centimtr3
+    def cmcub2af3(self,cm3):
+        self.centimtr3 = cm3 / (1.234 * (10 ** 9))
+        return self.centimtr3
 
 class millimtr3:
     millimtr3 = 0
