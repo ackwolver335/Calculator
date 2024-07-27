@@ -163,56 +163,56 @@ class centimtr3:
 class millimtr3:
     millimtr3 = 0
 
-    def __init__(self,mm):
-        self.millimtr3 = mm
+    def __init__(self):
+        pass
 
-    def mmcub2m3(self):
-        millimtr3 = self.millimtr3 / (10 ** 9)
-        return millimtr3
+    def mmcub2m3(self,mm3):
+        self.millimtr3 = mm3 / (10 ** 9)
+        return self.millimtr3
     
-    def mmcub2dm3(self):
-        millimtr3 = self.millimtr3 / (10 ** 6)
-        return millimtr3
+    def mmcub2dm3(self,mm3):
+        self.millimtr3 = mm3 / (10 ** 6)
+        return self.millimtr3
 
-    def mmcub2cm3(self):
-        millimtr3 = self.millimtr3 / 1000
-        return millimtr3
+    def mmcub2cm3(self,mm3):
+        self.millimtr3 = mm3 / 1000
+        return self.millimtr3
         
-    def mmcub2hl(self):
-        millimtr3 = self.millimtr3 / (10 ** 8)
-        return millimtr3
+    def mmcub2hl(self,mm3):
+        self.millimtr3 = mm3 / (10 ** 8)
+        return self.millimtr3
 
-    def mmcub2l(self):
-        millimtr3 = self.millimtr3 / (10 ** 6)
-        return millimtr3
+    def mmcub2l(self,mm3):
+        self.millimtr3 = mm3 / (10 ** 6)
+        return self.millimtr3
 
-    def mmcub2dl(self):
-        millimtr3 = self.millimtr3 / (10 ** 5)
-        return millimtr3
+    def mmcub2dl(self,mm3):
+        self.millimtr3 = mm3 / (10 ** 5)
+        return self.millimtr3
 
-    def mmcub2cl(self):
-        millimtr3 = self.millimtr3 / (10 ** 4)
-        return millimtr3
+    def mmcub2cl(self,mm3):
+        self.millimtr3 = mm3 / (10 ** 4)
+        return self.millimtr3
 
-    def mmcub2ml(self):
-        millimtr3 = self.millimtr3 / 1000
-        return millimtr3
+    def mmcub2ml(self,mm3):
+        self.millimtr3 = mm3 / 1000
+        return self.millimtr3
 
-    def mmcub2ft3(self):
-        millimtr3 = self.millimtr3 / 28316846
-        return millimtr3
+    def mmcub2ft3(self,mm3):
+        self.millimtr3 = mm3 / 28316846
+        return self.millimtr3
 
-    def mmcub2inch3(self):
-        millimtr3 = self.millimtr3 / 16387
-        return millimtr3
+    def mmcub2inch3(self,mm3):
+        self.millimtr3 = mm3 / 16387
+        return self.millimtr3
 
-    def mmcub2yd3(self):
-        millimtr3 = self.millimtr3 / 764554858
-        return millimtr3
+    def mmcub2yd3(self,mm3):
+        self.millimtr3 = mm3 / 764554858
+        return self.millimtr3
 
-    def mmcub2af3(self):
-        millimtr3 = self.millimtr3 / (1234 * (10 ** 12))
-        return millimtr3
+    def mmcub2af3(self,mm3):
+        self.millimtr3 = mm3 / (1234 * (10 ** 12))
+        return self.millimtr3
 
 class hectltr:
     hectltr = 0
