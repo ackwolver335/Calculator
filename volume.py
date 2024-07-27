@@ -271,56 +271,56 @@ class hectltr:
 class ltr:
     litre = 0
 
-    def __init__(self,ltr):
-        self.litre = ltr
+    def __init__(self):
+        pass
 
-    def ltr2m3(self):
-        litre = self.litre / 1000
-        return litre
+    def ltr2m3(self,ltr):
+        self.litre = ltr / 1000
+        return self.litre
 
-    def ltr2dm3(self):
-        litre = self.litre * 1
-        return litre
+    def ltr2dm3(self,ltr):
+        self.litre = ltr * 1
+        return self.litre
 
-    def ltr2cm3(self):
-        litre = self.litre * 1000
-        return litre
+    def ltr2cm3(self,ltr):
+        self.litre = ltr * 1000
+        return self.litre
 
-    def ltr2mm3(self):
-        litre = self.litre * (10 ** 6)
-        return litre
+    def ltr2mm3(self,ltr):
+        self.litre = ltr * (10 ** 6)
+        return self.litre
 
-    def ltr2hl(self):
-        litre = self.litre / 100
-        return litre
+    def ltr2hl(self,ltr):
+        self.litre = ltr / 100
+        return self.litre
 
-    def ltr2dl(self):
-        litre = self.litre * 10
-        return litre
+    def ltr2dl(self,ltr):
+        self.litre = ltr * 10
+        return self.litre
 
-    def ltr2cl(self):
-        litre = self.litre * 100
-        return litre
+    def ltr2cl(self,ltr):
+        self.litre = ltr * 100
+        return self.litre
 
-    def ltr2ml(self):
-        litre = self.litre * 1000
-        return litre
+    def ltr2ml(self,ltr):
+        self.litre = ltr * 1000
+        return self.litre
 
-    def ltr2ft3(self):
-        litre = self.litre / 28
-        return litre
+    def ltr2ft3(self,ltr):
+        self.litre = ltr / 28
+        return self.litre
 
-    def ltr2inch3(self):
-        litre = self.litre * 61
-        return litre
+    def ltr2inch3(self,ltr):
+        self.litre = ltr * 61
+        return self.litre
 
-    def ltr2yd3(self):
-        litre = self.litre * 764
-        return litre
+    def ltr2yd3(self,ltr):
+        self.litre = ltr * 764
+        return self.litre
 
-    def ltr2af3(self):
-        litre = self.litre / 1234000
-        return litre
+    def ltr2af3(self,ltr):
+        self.litre = ltr / 1234000
+        return self.litre
 
 class decilitre:
     decltr = 0
