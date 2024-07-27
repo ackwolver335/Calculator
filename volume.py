@@ -544,51 +544,51 @@ class inchcub:
     def __init__(self):
         pass
 
-    def ihcub2m3(self,inch3):
+    def inchcub2m3(self,inch3):
         self.inchcube = inch3 / 61023
         return self.inchcube
 
-    def ihcub2dm3(self,inch3):
+    def inchcub2dm3(self,inch3):
         self.inchcube = inch3 / 61
         return self.inchcube
 
-    def ihcub2cm3(self,inch3):
+    def inchcub2cm3(self,inch3):
         self.inchcube = inch3 * 16
         return self.inchcube
 
-    def ihcub2mm3(self,inch3):
+    def inchcub2mm3(self,inch3):
         self.inchcube = inch3 * 16387
         return self.inchcube
 
-    def ihcub2hl(self,inch3):
+    def inchcub2hl(self,inch3):
         self.inchcube = inch3 / 6102
         return self.inchcube
 
-    def ihcub2l(self,inch3):
+    def inchcub2l(self,inch3):
         self.inchcube = inch3 / 61
         return self.inchcube
 
-    def ihcub2dl(self,inch3):
+    def inchcub2dl(self,inch3):
         self.inchcube = inch3 / 6
         return self.inchcube
 
-    def ihcub2cl(self,inch3):
+    def inchcub2cl(self,inch3):
         self.inchcube = inch3 * 1.63
         return self.inchcube
 
-    def ihcub2ml(self,inch3):
+    def inchcub2ml(self,inch3):
         self.inchcube = inch3 * 16
         return self.inchcube
 
-    def ihcub2ft3(self,inch3):
+    def inchcub2ft3(self,inch3):
         self.inchcube = inch3 / 1728
         return self.inchcube
 
-    def ihcub2yd3(self,inch3):
+    def inchcub2yd3(self,inch3):
         self.inchcube = inch3 / 46656
         return self.inchcube
 
-    def ihcub2af3(self,inch3):
+    def inchcub2af3(self,inch3):
         self.inchcube = inch3 / 75303300
         return self.inchcube
 
