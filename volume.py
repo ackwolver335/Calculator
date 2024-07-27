@@ -5,52 +5,52 @@
 class metre3:
     meter_cub = 0
 
-    def __init__(self,m3):
-        self.meter_cub = m3
+    def __init__(self):
+        pass
 
-    def mcub2dmcub(self):
-        metre3 = self.meter_cub * 1000
-        return metre3
+    def mcub2dmcub(self,m3):
+        self.meter_cub = m3 * 1000
+        return self.meter_cub
 
-    def mcub2cmcub(self):
-        metre3 = self.meter_cub * (10 ** 6)
-        return metre3
+    def mcub2cmcub(self,m3):
+        self.meter_cub = m3 * (10 ** 6)
+        return self.meter_cub
 
-    def mcub2mmcub(self):
-        metre3 = self.meter_cub * (10 ** 9)
-        return metre3
+    def mcub2mmcub(self,m3):
+        self.meter_cub = m3 * (10 ** 9)
+        return self.meter_cub
 
-    def mcub2hctl(self):
-        metre3 = self.meter_cub * 10
-        return metre3
+    def mcub2hctl(self,m3):
+        self.meter_cub = m3 * 10
+        return self.meter_cub
 
-    def mcub2ltr(self):
-        metre3 = self.meter_cub * 1000
-        return metre3
+    def mcub2ltr(self,m3):
+        self.meter_cub = m3 * 1000
+        return self.meter_cub
 
-    def mcub2dcltr(self):
-        metre3 = self.meter_cub * (10 ** 4)
-        return metre3
+    def mcub2dcltr(self,m3):
+        self.meter_cub = m3 * (10 ** 4)
+        return self.meter_cub
 
-    def mcub2mltr(self):
-        metre3 = self.meter_cub * (10 ** 6)
-        return metre3
+    def mcub2mltr(self,m3):
+        self.meter_cub = m3 * (10 ** 6)
+        return self.meter_cub
 
-    def mcub2ft3(self):
-        metre3 = self.meter_cub * 35
-        return metre3
+    def mcub2ft3(self,m3):
+        self.meter_cub = m3 * 35
+        return self.meter_cub
 
-    def mcub2inch3(self):
-        metre3 = self.meter_cub * 61023
-        return metre3
+    def mcub2inch3(self,m3):
+        self.meter_cub = m3 * 61023
+        return self.meter_cub
 
-    def mcub2yd3(self):
-        metre3 = self.meter_cub * 1.307
-        return metre3
+    def mcub2yd3(self,m3):
+        self.meter_cub = m3 * 1.307
+        return self.meter_cub
 
-    def mcub2af3(self):
-        metre3 = self.meter_cub / 1234
-        return metre3
+    def mcub2af3(self,m3):
+        self.meter_cub = m3 / 1234
+        return self.meter_cub
 
 class decimtr3:
     decimtr3 = 0
