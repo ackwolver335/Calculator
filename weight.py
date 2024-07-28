@@ -14,8 +14,8 @@ class kilogram:
         pass
 
     def kg2g(self,kg):                        
-        gram = kg * 1000
-        return gram
+        self.kilogram = kg * 1000
+        return self.kilogram
 
     def kg2milligm(self,kg):                  
         self.kilogram = kg * (10 ** 6)
@@ -66,8 +66,8 @@ class gram:
         pass
 
     def g2tonne(self,grm):                      
-        tonne = grm / (10 ** 6)
-        return tonne
+        self.gram = grm / (10 ** 6)
+        return self.gram
 
     def g2kg(self,grm):                         
         self.gram = grm / 1000
@@ -114,52 +114,52 @@ class gram:
 class tonne:
     tonne = 0
 
-    def __init__(self,ton):
-        self.tonne = ton
+    def __init__(self):
+        pass
 
-    def tonne2kg(self):
-        kg = self.tonne * 1000
-        return kg
+    def tonne2kg(self,tn):
+        self.tonne = tn * 1000
+        return self.tonne
 
-    def tonne2g(self):
-        g  = self.tonne * (10 ** 6)
-        return g
+    def tonne2g(self,tn):
+        self.tonne  = tn * (10 ** 6)
+        return self.tonne
 
-    def tonne2milligm(self):
-        milligm = self.tonne * (10 ** 9)
-        return milligm
+    def tonne2milligm(self,tn):
+        self.tonne = tn * (10 ** 9)
+        return self.tonne
 
-    def tonne2microgm(self):
-        microgm = self.tonne * (10 ** 12)
-        return microgm
+    def tonne2microgm(self,tn):
+        self.tonne = tn * (10 ** 12)
+        return self.tonne
 
-    def tonne2quintal(self):
-        quintal = self.tonne * 10
-        return quintal
+    def tonne2quintal(self,tn):
+        self.tonne = tn * 10
+        return self.tonne
 
-    def tonne2pound(self):
-        pound = self.tonne * 2.204
-        return pound
+    def tonne2pound(self,tn):
+        self.tonne = tn * 2.204
+        return self.tonne
 
-    def tonne2ounce(self):
-        ounce = self.tonne * 35273
-        return ounce
+    def tonne2ounce(self,tn):
+        self.tonne = tn * 35273
+        return self.tonne
 
-    def tonne_to_carat(self):
-        carat = self.tonne * (5 * (10 ** 6))
-        return carat
+    def tonne_to_carat(self,tn):
+        self.tonne = tn * (5 * (10 ** 6))
+        return self.tonne
 
-    def tonne2grain(self):
-        grain = self.tonne * 15432358
-        return grain
+    def tonne2grain(self,tn):
+        self.tonne = tn * 15432358
+        return self.tonne
 
-    def tonne2stone(self):
-        stone = self.tonne * 160
-        return stone
+    def tonne2stone(self,tn):
+        self.tonne = tn * 160
+        return self.tonne
 
-    def tonne2dram(self):
-        dram = self.tonne * 573440
-        return dram
+    def tonne2dram(self,tn):
+        self.tonne = tn * 573440
+        return self.tonne
 
 # Here are the milligm conversion classes
 
