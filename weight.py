@@ -574,49 +574,49 @@ class stone:
 class dram:
     dram = 0
 
-    def __init__(self,dr):
-        self.dram = dr
+    def __init__(self):
+        pass
 
-    def dr2tonne(self):
-        dram = self.dram * (1.7718452 / (10 ** 6))
-        return dram
+    def dr2tonne(self,drm):
+        self.dram = drm * (1.7718452 / (10 ** 6))
+        return self.dram
 
-    def dr2kg(self):
-        dram = self.dram * 0.0017
-        return dram
+    def dr2kg(self,drm):
+        self.dram = drm * 0.0017
+        return self.dram
 
-    def dr2g(self):
-        dram = self.dram * 1.77
-        return dram
+    def dr2g(self,drm):
+        self.dram = drm * 1.77
+        return self.dram
 
-    def dr2quintal(self):
-        dram = self.dram * (1.7718452 / (10 ** 5))
-        return dram
+    def dr2quintal(self,drm):
+        self.dram = drm * (1.7718452 / (10 ** 5))
+        return self.dram
 
-    def dr2pound(self):
-        dram = self.dram * 0.0039
-        return dram
+    def dr2pound(self,drm):
+        self.dram = drm * 0.0039
+        return self.dram
 
-    def dr2ounze(self):
-        dram = self.dram * 0.0625
-        return dram
+    def dr2ounze(self,drm):
+        self.dram = drm * 0.0625
+        return self.dram
 
-    def dr2milligm(self):
-        dram = self.dram * 1771
-        return dram
+    def dr2milligm(self,drm):
+        self.dram = drm * 1771
+        return self.dram
 
-    def dr2microgm(self):
-        dram = self.dram * 1771845
-        return dram
+    def dr2microgm(self,drm):
+        self.dram = drm * 1771845
+        return self.dram
 
-    def dr2carat(self):
-        dram = self.dram * 8.859
-        return dram
+    def dr2carat(self,drm):
+        self.dram = drm * 8.859
+        return self.dram
 
-    def dr2grain(self):
-        dram = self.dram * 27
-        return dram
+    def dr2grain(self,drm):
+        self.dram = drm * 27
+        return self.dram
     
-    def dr2stone(self):
-        dram = self.dram * 0.00027
-        return dram
+    def dr2stone(self,drm):
+        self.dram = drm * 0.00027
+        return self.dram
