@@ -322,52 +322,52 @@ class pound:
 class quintal:
     quintal = 0
 
-    def __init__(self,qtal):
-        self.quintal = qtal
+    def __init__(self):
+        pass
 
-    def qn2tonne(self):
-        quintal = self.quintal * 0.1
-        return quintal
+    def qn2tonne(self,qntl):
+        self.quintal = qntl * 0.1
+        return self.quintal
 
-    def qn2kg(self):
-        quintal = self.quintal * 100
-        return quintal
+    def qn2kg(self,qntl):
+        self.quintal = qntl * 100
+        return self.quintal
 
-    def qn2g(self):
-        quintal = self.quintal * (10 ** 5)
-        return quintal
+    def qn2g(self,qntl):
+        self.quintal = qntl * (10 ** 5)
+        return self.quintal
 
-    def qn2pound(self):
-        quintal = self.quintal * 220.46
-        return quintal
+    def qn2pound(self,qntl):
+        self.quintal = qntl * 220.46
+        return self.quintal
 
-    def qn2milligm(self):
-        quintal = self.quintal * (10 ** 8)
-        return quintal
+    def qn2milligm(self,qntl):
+        self.quintal = qntl * (10 ** 8)
+        return self.quintal
 
-    def qn2microgm(self):
-        quintal = self.quintal * (10 ** 11)
-        return quintal
+    def qn2microgm(self,qntl):
+        self.quintal = qntl * (10 ** 11)
+        return self.quintal
 
-    def qn2ounze(self):
-        quintal = self.quintal * 3527
-        return quintal
+    def qn2ounze(self,qntl):
+        self.quintal = qntl * 3527
+        return self.quintal
 
-    def qn2carat(self):
-        quintal = self.quintal * (5 * (10 ** 5))
-        return quintal
+    def qn2carat(self,qntl):
+        self.quintal = qntl * (5 * (10 ** 5))
+        return self.quintal
 
-    def qn2grain(self):
-        quintal = self.quintal * 1543235
-        return quintal
+    def qn2grain(self,qntl):
+        self.quintal = qntl * 1543235
+        return self.quintal
 
-    def qn2stone(self):
-        quintal = self.quintal * 15.74
-        return quintal
+    def qn2stone(self,qntl):
+        self.quintal = qntl * 15.74
+        return self.quintal
 
-    def qn2dram(self):
-        quintal = self.quintal * 56438
-        return quintal
+    def qn2dram(self,qntl):
+        self.quintal = qntl * 56438
+        return self.quintal
 
 # here is the ounce Class
 
