@@ -218,52 +218,52 @@ class milligm:
 class microgram:
     microgm = 0
 
-    def __init__(self,mcgm):
-        self.microgm = mcgm
+    def __init__(self):
+        pass
 
-    def microgm2tonne(self):
-        tonne = self.microgm / (10 ** 12)
-        return tonne
+    def microgm2tonne(self,mcrgm):
+        self.microgm = mcrgm / (10 ** 12)
+        return self.microgm
 
-    def microgm2kg(self):
-        kilogm = self.microgm / (10 ** 9)
-        return kilogm
+    def microgm2kg(self,mcrgm):
+        self.microgm = mcrgm / (10 ** 9)
+        return self.microgm
 
-    def microgm2g(self):
-        gram = self.microgm / (10 ** 6)
-        return gram
+    def microgm2g(self,mcrgm):
+        self.microgm = mcrgm / (10 ** 6)
+        return self.microgm
 
-    def microgm2milligm(self):
-        milligm = self.microgm * 1000
-        return milligm
+    def microgm2milligm(self,mcrgm):
+        self.microgm = mcrgm * 1000
+        return self.microgm
 
-    def microgm2quintal(self):
-        quital = self.microgm / (10 ** 11)
-        return quital
+    def microgm2quintal(self,mcrgm):
+        self.microgm = mcrgm / (10 ** 11)
+        return self.microgm
 
-    def microgm2pound(self):
-        pound = self.microgm * 2.20462262
-        return pound
+    def microgm2pound(self,mcrgm):
+        self.microgm = mcrgm * 2.20462262
+        return self.microgm
 
-    def microgm2ounze(self):
-        ounze = self.microgm * 3.52739619
-        return ounze
+    def microgm2ounze(self,mcrgm):
+        self.microgm = mcrgm * 3.52739619
+        return self.microgm
 
-    def microgm2carat(self):
-        carat = self.microgm / (5 * (10 ** 6))
-        return carat
+    def microgm2carat(self,mcrgm):
+        self.microgm = mcrgm / (5 * (10 ** 6))
+        return self.microgm
 
-    def microgm2grain(self):
-        grain = self.microgm * 1.54323584
-        return grain
+    def microgm2grain(self,mcrgm):
+        self.microgm = mcrgm * 1.54323584
+        return self.microgm
 
-    def microgm2stone(self):
-        stone = self.microgm * (1.57473044 / (10 ** 10))
-        return stone
+    def microgm2stone(self,mcrgm):
+        self.microgm = mcrgm * (1.57473044 / (10 ** 10))
+        return self.microgm
 
-    def microgm2dram(self):
-        dram = self.microgm * (5.64383391 / (10 ** 7))
-        return dram
+    def microgm2dram(self,mcrgm):
+        self.microgm = mcrgm * (5.64383391 / (10 ** 7))
+        return self.microgm
 
 # here is the Pound Class
 
