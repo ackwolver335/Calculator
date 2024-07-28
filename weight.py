@@ -522,52 +522,52 @@ class grain:
 class stone:
     stone = 0
 
-    def __init__(self,st):
-        self.stone = st
+    def __init__(self):
+        pass
 
-    def st2tonne(self):
-        stone = self.stone * 0.0063
-        return stone
+    def st2tonne(self,stn):
+        self.stone = stn * 0.0063
+        return self.stone
 
-    def st2kg(self):
-        stone = self.stone * 6.35
-        return stone
+    def st2kg(self,stn):
+        self.stone = stn * 6.35
+        return self.stone
 
-    def st2g(self):
-        stone = self.stone * 6350
-        return stone
+    def st2g(self,stn):
+        self.stone = stn * 6350
+        return self.stone
 
-    def st2pound(self):
-        stone = self.stone * 14
-        return stone
+    def st2pound(self,stn):
+        self.stone = stn * 14
+        return self.stone
 
-    def st2quintal(self):
-        stone = self.stone * 0.063
-        return stone
+    def st2quintal(self,stn):
+        self.stone = stn * 0.063
+        return self.stone
 
-    def st2ounze(self):
-        stone = self.stone * 224
-        return stone
+    def st2ounze(self,stn):
+        self.stone = stn * 224
+        return self.stone
 
-    def st2milligm(self):
-        stone = self.stone * 6350293
-        return stone
+    def st2milligm(self,stn):
+        self.stone = stn * 6350293
+        return self.stone
 
-    def st2microgm(self):
-        stone = self.stone * (6.35029318 / (10 ** 9))
-        return stone
+    def st2microgm(self,stn):
+        self.stone = stn * (6.35029318 / (10 ** 9))
+        return self.stone
 
-    def st2carat(self):
-        stone = self.stone * 31751
-        return stone
+    def st2carat(self,stn):
+        self.stone = stn * 31751
+        return self.stone
 
-    def st2grain(self):
-        stone = self.stone * 98000
-        return stone
+    def st2grain(self,stn):
+        self.stone = stn * 98000
+        return self.stone
 
-    def st2dram(self):
-        stone = self.stone * 3584
-        return stone
+    def st2dram(self,stn):
+        self.stone = stn * 3584
+        return self.stone
 
 # here is the dram Class
 
