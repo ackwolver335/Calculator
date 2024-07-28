@@ -166,52 +166,52 @@ class tonne:
 class milligm:
     milligm = 0
 
-    def __init_(self,mlgm):
-        self.milligm = mlgm
+    def __init__(self):
+        pass
 
-    def milligm2tonne(self):
-        tonne = self.milligm / (10 ** 9)
-        return tonne
+    def milligm2tonne(self,mllgm):
+        self.milligm = mllgm / (10 ** 9)
+        return self.milligm
 
-    def milligm2kg(self):
-        kg = self.milligm / (10 ** 6)
-        return kg
+    def milligm2kg(self,mllgm):
+        self.milligm = mllgm / (10 ** 6)
+        return self.milligm
 
-    def milligm2g(self):
-        g = self.milligm / 1000
-        return g
+    def milligm2g(self,mllgm):
+        self.milligm = mllgm / 1000
+        return self.milligm
 
-    def milligm2micro(self):
-        micro_gm = self.milligm * 1000
-        return micro_gm
+    def milligm2micro(self,mllgm):
+        self.milligm = mllgm * 1000
+        return self.milligm
 
-    def milligm2quintal(self):
-        quintal = self.milligm / (10 ** 8)
-        return quintal
+    def milligm2quintal(self,mllgm):
+        self.milligm = mllgm / (10 ** 8)
+        return self.milligm
 
-    def milligm2pound(self):
-        pound = self.milligm * 2.204622
-        return pound
+    def milligm2pound(self,mllgm):
+        self.milligm = mllgm * 2.204622
+        return self.milligm
 
-    def milligm2ounze(self):
-        ounze = self.milligm * 3.527396
-        return ounze
+    def milligm2ounze(self,mllgm):
+        self.milligm = mllgm * 3.527396
+        return self.milligm
 
-    def milligm2carat(self):
-        carat = self.milligm * 0.005
-        return carat
+    def milligm2carat(self,mllgm):
+        self.milligm = mllgm * 0.005
+        return self.milligm
 
-    def milligm2grain(self):
-        grain = self.milligm * 0.0154323
-        return grain
+    def milligm2grain(self,mllgm):
+        self.milligm = mllgm * 0.0154323
+        return self.milligm
 
-    def milligm2stone(self):
-        stone = self.milligm * 1.57473044
-        return stone
+    def milligm2stone(self,mllgm):
+        self.milligm = mllgm * 1.57473044
+        return self.milligm
 
-    def milligm2dram(self):
-        dram = self.milligm * 0.000564383
-        return dram
+    def milligm2dram(self,mllgm):
+        self.milligm = mllgm * 0.000564383
+        return self.milligm
 
 # here is another class of microgram
 
