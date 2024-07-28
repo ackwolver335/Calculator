@@ -270,52 +270,52 @@ class microgram:
 class pound:
     pound = 0
 
-    def __init__(self,pd):
-        self.pound = pd
+    def __init__(self):
+        pass
 
-    def pd2kg(self):
-        pound = self.pound * 0.453
-        return pound
+    def pd2kg(self,pnd):
+        self.pound = pnd * 0.453
+        return self.pound
 
-    def pd2g(self):
-        pound = self.pound * 453
-        return pound
+    def pd2g(self,pnd):
+        self.pound = pnd * 453
+        return self.pound
 
-    def pd2tonne(self):
-        pound = self.pound * (453 / (10 ** 5))
-        return pound
+    def pd2tonne(self,pnd):
+        self.pound = pnd * (453 / (10 ** 5))
+        return self.pound
 
-    def pd2milligm(self):
-        pound = self.pound * 453592
-        return pound
+    def pd2milligm(self,pnd):
+        self.pound = pnd * 453592
+        return self.pound
 
-    def pd2microgm(self):
-        pound = self.pound * 453592370
-        return pound
+    def pd2microgm(self,pnd):
+        self.pound = pnd * 453592370
+        return self.pound
 
-    def pd2quintal(self):
-        pound = self.pound * (453 / (10 ** 3))
-        return pound
+    def pd2quintal(self,pnd):
+        self.pound = pnd * (453 / (10 ** 3))
+        return self.pound
 
-    def pd2ounze(self):
-        pound = self.pound * 16
-        return pound
+    def pd2ounze(self,pnd):
+        self.pound = pnd * 16
+        return self.pound
 
-    def pd2carat(self):
-        pound = self.pound * 2267
-        return pound
+    def pd2carat(self,pnd):
+        self.pound = pnd * 2267
+        return self.pound
 
-    def pd2grain(self):
-        pound = self.pound * 7000
-        return pound
+    def pd2grain(self,pnd):
+        self.pound = pnd * 7000
+        return self.pound
 
-    def pd2stone(self):
-        pound = self.pound * (714 / (10 ** 2))
-        return pound
+    def pd2stone(self,pnd):
+        self.pound = pnd * (714 / (10 ** 2))
+        return self.pound
 
-    def pd2dram(self):
-        pound = self.pound * 256
-        return pound
+    def pd2dram(self,pnd):
+        self.pound = pnd * 256
+        return self.pound
 
 # here is the Quintal Class
 
