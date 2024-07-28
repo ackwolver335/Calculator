@@ -474,48 +474,48 @@ class carat:
 class grain:
     grain = 0
 
-    def __init__(self,gr):
-        self.grain = gr
+    def __init__(self):
+        pass
 
-    def gr2tonne(self):
-        grain = self.grain * (6.479891 / (10 ** 8))
-        return grain
+    def gr2tonne(self,grn):
+        self.grain = grn * (6.479891 / (10 ** 8))
+        return self.grain
 
-    def gr2kg(self):
-        grain = self.grain * (6.479891 / (10 ** 5))
-        return grain
+    def gr2kg(self,grn):
+        self.grain = grn * (6.479891 / (10 ** 5))
+        return self.grain
 
-    def gr2g(self):
-        grain = self.grain * 0.064798911
-        return grain
+    def gr2g(self,grn):
+        self.grain = grn * 0.064798911
+        return self.grain
 
-    def gr2pound(self):
-        grain = self.grain * 0.0001428
-        return grain
+    def gr2pound(self,grn):
+        self.grain = grn * 0.0001428
+        return self.grain
 
-    def gr2quintal(self):
-        grain = self.grain * (6.479891 / (10 ** 7))
-        return grain
+    def gr2quintal(self,grn):
+        self.grain = grn * (6.479891 / (10 ** 7))
+        return self.grain
 
-    def gr2milligm(self):
-        grain = self.grain * 64.787
-        return grain
+    def gr2milligm(self,grn):
+        self.grain = grn * 64.787
+        return self.grain
 
-    def gr2microgm(self):
-        grain = self.grain * 64798
-        return grain
+    def gr2microgm(self,grn):
+        self.grain = grn * 64798
+        return self.grain
 
-    def gr2carat(self):
-        grain = self.grain * 0.323
-        return grain
+    def gr2carat(self,grn):
+        self.grain = grn * 0.323
+        return self.grain
 
-    def gr2stone(self):
-        grain = self.grain * 1.02
-        return grain
+    def gr2stone(self,grn):
+        self.grain = grn * 1.02
+        return self.grain
 
-    def gr2dram(self):
-        grain = self.grain * 0.036
-        return grain
+    def gr2dram(self,grn):
+        self.grain = grn * 0.036
+        return self.grain
 
 # here is the stone Class
 
