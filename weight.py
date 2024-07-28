@@ -426,48 +426,48 @@ class ounze:
 class carat:
     carat = 0
 
-    def __init__(self,ct):
-        self.carat = ct
+    def __init__(self):
+        pass
 
-    def ct2tonne(self):
-        carat = self.carat * (2 / (10 ** 7))
-        return carat
+    def ct2tonne(self,crt):
+        self.carat = crt * (2 / (10 ** 7))
+        return self.carat
 
-    def ct2kg(self):
-        carat = self.carat * (2 / (10 ** 4))
-        return carat
+    def ct2kg(self,crt):
+        self.carat = crt * (2 / (10 ** 4))
+        return self.carat
 
-    def ct2g(self):
-        carat = self.carat * 0.2
-        return carat
+    def ct2g(self,crt):
+        self.carat = crt * 0.2
+        return self.carat
 
-    def ct2pound(self):
-        carat = self.carat * 0.0004
-        return carat 
+    def ct2pound(self,crt):
+        self.carat = crt * 0.0004
+        return self.carat 
 
-    def ct2quintal(self):
-        carat = self.carat * (2 / (10 ** 6))
-        return carat
+    def ct2quintal(self,crt):
+        self.carat = crt * (2 / (10 ** 6))
+        return self.carat
 
-    def ct2milligm(self):
-        carat = self.carat * 200
-        return carat
+    def ct2milligm(self,crt):
+        self.carat = crt * 200
+        return self.carat
 
-    def ct2microgm(self):
-        carat = self.carat * 200000
-        return carat
+    def ct2microgm(self,crt):
+        self.carat = crt * 200000
+        return self.carat
 
-    def ct2grain(self):
-        carat = self.carat * 3.08
-        return carat
+    def ct2grain(self,crt):
+        self.carat = crt * 3.08
+        return self.carat
 
-    def ct2stone(self):
-        carat = self.carat * 3.14
-        return carat
+    def ct2stone(self,crt):
+        self.carat = crt * 3.14
+        return self.carat
 
-    def ct2dram(self):
-        carat = self.carat * 0.11
-        return carat
+    def ct2dram(self,crt):
+        self.carat = crt * 0.11
+        return self.carat
 
 # here is the grain Class
 
