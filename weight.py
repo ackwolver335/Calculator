@@ -374,52 +374,52 @@ class quintal:
 class ounze:
     ounze = 0
 
-    def __init__(self,oz):
-        self.ounze = oz
+    def __init__(self):
+        pass
 
-    def oz2tonne(self):
-        ounze = self.ounze * 2.83
-        return ounze
+    def oz2tonne(self,ouz):
+        self.ounze = ouz * 2.83
+        return self.ounze
 
-    def oz2kg(self):
-        ounze = self.ounze * 0.028
-        return ounze
+    def oz2kg(self,ouz):
+        self.ounze = ouz * 0.028
+        return self.ounze
 
-    def oz2g(self):
-        ounze = self.ounze * 28
-        return ounze
+    def oz2g(self,ouz):
+        self.ounze = ouz * 28
+        return self.ounze
 
-    def oz2pound(self):
-        ounze = self.ounze * 0.0625
-        return ounze
+    def oz2pound(self,ouz):
+        self.ounze = ouz * 0.0625
+        return self.ounze
 
-    def oz2quintal(self):
-        ounze = self.ounze * (283 / (10 ** 3))
-        return ounze
+    def oz2quintal(self,ouz):
+        self.ounze = ouz * (283 / (10 ** 3))
+        return self.ounze
 
-    def oz2milligm(self):
-        ounze = self.ounze * 28349
-        return ounze
+    def oz2milligm(self,ouz):
+        self.ounze = ouz * 28349
+        return self.ounze
 
-    def oz2microgm(self):
-        ounze = self.ounze * 28349523
-        return ounze
+    def oz2microgm(self,ouz):
+        self.ounze = ouz * 28349523
+        return self.ounze
 
-    def oz2carat(self):
-        ounze = self.ounze * 141
-        return ounze
+    def oz2carat(self,ouz):
+        self.ounze = ouz * 141
+        return self.ounze
 
-    def oz2grain(self):
-        ounze = self.ounze * 437
-        return ounze
+    def oz2grain(self,ouz):
+        self.ounze = ouz * 437
+        return self.ounze
 
-    def oz2stone(self):
-        ounze = self.ounze * (446 / (10 ** 3))
-        return ounze
+    def oz2stone(self,ouz):
+        self.ounze = ouz * (446 / (10 ** 3))
+        return self.ounze
 
-    def oz2dram(self):
-        ounze = self.ounze * 16
-        return ounze
+    def oz2dram(self,ouz):
+        self.ounze = ouz * 16
+        return self.ounze
 
 # here is the carat Class
 
