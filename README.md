@@ -1,10 +1,10 @@
 # 🚀 Calculator - A Python Library
 
-## ⚡️ About 
+## 💠 About My Repo
 
 A well-known programming language's Repo **"Python"** containing the known knowledge of Fundamentals of General requirement of a Calculator with different units of our environmental needs.
 
-## ⚡️ Available Categories in Repo
+### 🎯 Available Categories in Repo
 
 - **BMI** - Contains different methods regarding calcutions on BMI [Body Mass Index].
 - **Data Units** - Units that we generall used to find in storage units like MB,GB,TB,.. and so on.
@@ -17,7 +17,7 @@ A well-known programming language's Repo **"Python"** containing the known knowl
 
 ## Brief Explanation of Units
 
-### 🛠 BMI Methods
+### 🎯 BMI Methods
 
 | **Methods** | **Uses** |
 | ----------- | -------- |
@@ -28,7 +28,7 @@ A well-known programming language's Repo **"Python"** containing the known knowl
 
 Note : Further code and data element is given in [BMI](https://github.com/ackwolver335/Calculator/blob/main/BMI.py) file.
 
-### 🛠 Data Unit's Module
+### 🎯 Data Unit's Module
 
 It contains methods regarding the conversions in units of storage devices like bit,bytes,KB,.. and so on. Due to which one of them is shown in order to have an idea of this particular module.
 
@@ -46,13 +46,13 @@ It contains methods regarding the conversions in units of storage devices like b
 
 Note : In this similar way other data units are given in [Data](https://github.com/ackwolver335/Calculator/blob/main/Data.py) file.
 
-### 🛠 Discount Module
+### 🎯 Discount Module
 
 A Module containing simply one method in order to work on just calculating one discount not on other else things.
 
 Note : File is available with name [Discount](https://github.com/ackwolver335/Calculator/blob/main/Discount.py)
 
-### 🛠 Length Module
+### 🎯 Length Module
 
 It contains different units that can be considered both in minor and major categories. Cause of availability of more than one unit's category, we have the explanation on one to be considered with others.
 
@@ -71,7 +71,7 @@ It contains different units that can be considered both in minor and major categ
 
 Note : In the similar way other distance units at micro and macro level are available in [Length](https://github.com/ackwolver335/Calculator/blob/main/Length.py) file.
 
-### 🛠 Temperature Module
+### 🎯 Temperature Module
 
 It contains the different categories of temperature units available in our environment even in degree or in other default units of temperature.
 
@@ -84,7 +84,7 @@ It contains the different categories of temperature units available in our envir
 
 Note : Similar to this one further code content is available in [Temperature](https://github.com/ackwolver335/Calculator/blob/main/Temperature.py) file.
 
-### 🛠 Time Module
+### 🎯 Time Module
 
 It contains the different categories of Time Units available in our countable in micro and nano as per the speed of time.
 
@@ -102,7 +102,7 @@ It contains the different categories of Time Units available in our countable in
 
 Note : In the similar way further code content in available in [Time](https://github.com/ackwolver335/Calculator/blob/main/Time.py) file.
 
-### 🛠 Volume Module
+### 🎯 Volume Module
 
 It contains different units regarding the volumes in the real world, in this one we have different available units.
 
@@ -123,7 +123,7 @@ It contains different units regarding the volumes in the real world, in this one
 
 Note : Further code and resources will be available in [Volume](https://github.com/ackwolver335/Calculator/blob/main/volume.py) File.
 
-### 🛠 Weight Module
+### 🎯 Weight Module
 
 This Module contains different types of units or category of units regarding the calculations related to weights.
 
