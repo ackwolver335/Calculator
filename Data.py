@@ -9,11 +9,11 @@ class Bit:
         pass
 
     def bt2byte(self,bt):
-        self.bit = bit / 8
+        self.bt = bt / 8
         return self.bit
 
     def bt2kb(self,bt):
-        self.bit = bit / (8 * 1024)
+        self.bit = bt / (8 * 1024)
         return self.bit
 
     def bt2mb(self,bt):
@@ -135,39 +135,39 @@ class megabyte:
         pass
     
     def mb2bit(self,kb):
-        self.mgbyt = mb * ((1024 ** 2) * 8)
+        self.mgbyt = kb * ((1024 ** 2) * 8)
         return self.mgbyt
 
     def mb2byt(self,kb):
-        self.mgbyt = mb * (1024 * 8)
+        self.mgbyt = kb * (1024 * 8)
         return self.mgbyt
     
     def mb2kb(self,kb):
-        self.mgbyt = mb * 1024
+        self.mgbyt = kb * 1024
         return self.mgbyt
 
     def mb2gb(self,kb):
-        self.mgbyt = mb / 1024
+        self.mgbyt = kb / 1024
         return self.mgbyt
     
     def mb2tb(self,kb):
-        self.mgbyt = mb / (1024 ** 2)
+        self.mgbyt = kb / (1024 ** 2)
         return self.mgbyt
 
     def mb2pb(self,kb):
-        self.mgbyt = mb / (1024 ** 3)
+        self.mgbyt = kb / (1024 ** 3)
         return self.mgbyt
 
     def mb2eb(self,kb):
-        self.mgbyt = mb / (1024 ** 4)
+        self.mgbyt = kb / (1024 ** 4)
         return self.mgbyt
 
     def mb2zb(self,kb):
-        self.mgbyt = mb / (1024 ** 5)
+        self.mgbyt = kb / (1024 ** 5)
         return self.mgbyt
 
     def mb2yb(self,kb):
-        self.mgbyt = mb / (1024 ** 6)
+        self.mgbyt = kb / (1024 ** 6)
         return self.mgbyt
 
 class gigabyt:
@@ -408,7 +408,7 @@ class yotabyte:
 
     def yb2tb(self,yb):
         self.ytbyt = yb * (1024 ** 4)
-        return yself.tbyt 
+        return self.ytbyt 
 
     def yb2pb(self,yb):
         self.ytbyt = yb * (1024 ** 3)
@@ -416,7 +416,7 @@ class yotabyte:
 
     def yb2eb(self,yb):
         self.ytbyt = yb * (1024 ** 2)
-        return yself.tbyt 
+        return self.ytbyt 
 
     def yb2zb(self,yb):
         self.ytbyt = yb * 1024
